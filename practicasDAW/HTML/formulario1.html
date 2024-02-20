@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="a" method="post">
+        <!-- comentario-->
+        Nombre: <input type="text" name="nombre" size="6" maxlength="6"><br>
+        <input type="text" name="apellido1" placeholder="Primer apellido"><br>
+        <input type="text" name="apellido2" placeholder="Segundo apellido"><br>
+        Género: <br>
+        <input type="radio" name="genero" value="m">Masculino<br>
+        <input type="radio" name="genero" value="f">Femenino<br>
+        <input type="radio" name="genero" value="o">Otro<br>
+        ¿Cuál color te gusta más? <br>
+        <input type="radio" name="color" value="blanco">Blanco<br>
+        <input type="radio" name="color" value="negro">Negro<br>
+        Aficiones: <br>
+        <input type="checkbox" name="aficiones" value="deporte">deporte <br>
+        <input type="checkbox" name="aficiones" value="lectura">lectura <br>
+        <input type="checkbox" name="aficiones" value="cine">cine <br>
+        <datalist id="listaPoblaciones">
+            <option value="Valdepeñas"></option>
+            <option value="La Solana"></option>
+            <option value="Moral de Calatrava"></option>
+        </datalist>
+        Población: <br>
+        <input type="text" name="pob" list="listaPoblaciones"> <br>
+        Provincia:
+        <select name="prov" multiple>
+            <option value="nada">Elige provincia...</option>
+            <option value="cr">Ciudad Real</option>
+            <option value="ab">Albacete</option>
+            <option value="cu">Cuenca</option>
+            <option value="to">Toledo</option>
+            <option value="gu">Guadalajara</option>
+        </select>
+        <hr>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>

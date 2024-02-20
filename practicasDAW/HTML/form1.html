@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Nombre y apellidos</legend>
+            <input type="text" placeholder="Escribe tu nombre" title="nombre" name="nombre">
+            <input type="text" placeholder="Apellido1" maxlength="5" name="apellido1">
+            <input type="text" placeholder="Apellido2"  name="apellido2">
+        </fieldset>
+        <br>
+        <input type="number" placeholder="telefono" name="telefono"><br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="m">Masculino<br>
+        <input type="radio" name="sexo" value="f">Femenino<br>
+        <input type="radio" name="sexo" value="o">Otros <br>
+        Población: <br>
+        <input type="radio" name="poblacion" value="valde">Valdepeñas <br>
+        <input type="radio" name="poblacion" value="moral"> Moral de Calatrava <br>
+        <input type="radio" name="poblacion" value="laSolana"> La Solana <br>
+        Módulos cursados: <br>
+        <input type="checkbox" name="modulos" value="lmsgi">Lenguaje de marcas<br>
+        <input type="checkbox" name="modulos" value="bd">Bases de datos<br>
+        <input type="checkbox" name="modulos" value="si">Sistemas informáticos<br>
+        <input type="checkbox" name="modulos" value="ende">Entornos de desarrollo<br>
+        Localidad: 
+        <select name="localidad" mu>
+            <option value="nada">Elige una localidad...</option>
+            <option value="valde">Valdepeñas</option>
+            <option value="moral">Moral de Calatrava</option>
+            <option value="solana">La Solana</option>
+            <option value="manzanares">Manzanares</option>
+        </select><br>
+        <textarea name="comentario" cols="30" rows="10" maxlength="10"></textarea><br>
+        Provincia:
+        <input type="text" list="listaSugerencias" name="provincias">
+        <datalist id="listaSugerencias">
+            <option value="CReal"></option>
+            <option value="Toledo"></option>
+            <option value="Cuenca"></option>
+            <option value="Albacete"></option>
+            <option value="Guadalajara"></option>
+        </datalist>
+        <br>
+        0<input type="range" id="notaMedia" min="0" max="10" name="notaMedia" value="0" oninput="prueba.value=parseInt(notaMedia.value);ValorSeleccionado.value=notaMedia.value">10 <br>
+        Valor seleccionado = 
+        <output name="ValorSeleccionado" for="notaMedia">0</output>
+        <input type="text" name="prueba" disabled value="0">
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>

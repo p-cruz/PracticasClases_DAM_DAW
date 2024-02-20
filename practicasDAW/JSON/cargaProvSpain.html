@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id='miFormulario'>
+        <label for="provincias">Provincias España</label>
+        <select name="provincias" id="provincias">
+            <option value="0">Seleccione una Provincia...</option>
+        </select>
+        <label for="municipios">Municipios</label>
+        <select name="municipios" id="municipios">
+            <option value="0">Seleccione una Población..</option>
+        </select>
+    </form>
+    <script src="datosProvMuni.js"></script>
+    <script>
+        var datosProvincias=datosProvincias.sort((a,b)=>a.nm.localeCompare(b.nm));
+        var selectProvincias=document.getElementById('provincias');
+        for (let i = 0; i < datosProvincias.length; i++) {
+            var option=document.createElement('option');
+            option.value=datosProvincias[i].id;
+            option.text=datosProvincias[i].nm;
+            selectProvincias.appendChild(option);
+        }
+
+        selectProvincias.addEventListener('change',  function(e){
+                var idProvincia=this.value;
+                console.log(idProvincia)
+                var selectMunicipios=document.getElementById('municipios');
+                selectMunicipios.innerHTML='';
+                //var municipios=datosMunicipios.filter(municipio=>municipio.idProv==idProvincia);
+                var option=document.createElement('option');
+                option.value=0;
+                option.text='Seleccione una población...';
+                selectMunicipios.appendChild(option);
+                for (let i = 0; i < datosMunicipios.length; i++) {
+                    //if(idProvincia == datosMunicipios[i].id.substr(0,2)){
+                    if(datosMunicipios[i].id.startsWith(idProvincia)){
+                        option=document.createElement('option');
+                        option.value=datosMunicipios[i].id;
+                        option.text=datosMunicipios[i].nm;
+                        selectMunicipios.appendChild(option);
+                    }
+                }
+        });
+
+
+    </script>
+</body>
+</html>

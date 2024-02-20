@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="saludo();">
+        Púlsame
+    </button>
+    <button type="button" onclick="mostrarFecha()">
+        Haz clic para mostrar la fecha
+    </button>
+    <h2 id="fecha"></h2>
+    <script>
+        function saludo(){
+            alert("mensaje de alerta que sale directamente al cargar la página web");
+        }
+        function mostrarFecha(){
+            var elementoFecha=document.getElementById('fecha');
+            elementoFecha.innerHTML=Date();
+        }
+    </script>
+</body>
+</html>

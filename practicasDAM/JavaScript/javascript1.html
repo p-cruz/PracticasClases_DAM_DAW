@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Nombre </td>
+            <td id="name"></td>
+        </tr>
+        <tr>
+            <td>Edad</td>
+            <td id="age"></td>
+        </tr>
+    </table>
+    <button type="button" onclick="pideDatos()">Púlsame</button>
+    <hr>
+    <img src="img/apagada.jpg" alt="bombilla apagada" id="bombilla" onclick="interruptor()">
+    <script>
+        function pideDatos(){
+            var nombre,edad;
+            nombre=prompt('Dime tu nombre')
+            edad=prompt('Dime tu edad')
+            document.getElementById('name').innerText=nombre
+            document.getElementById('age').innerText=edad
+        }
+        function interruptor(){
+            var imagen=document.getElementById('bombilla')
+            if (imagen.src.match('apagada')) {
+                imagen.src='img/encendida.jpg'
+            }else{
+                imagen.src='img/apagada.jpg'
+            }
+        }
+        setInterval(interruptor, 1000)
+        /*console.log('la bombilla está intermitiendo')
+        console.error('Error de mentirijilla')
+        var prueba=6
+        debugger
+        prueba++
+        console.info(prueba)*/
+        console.log(a)
+        //console.log(b)
+        //console.log(c)
+        var a=1
+        let b=2
+        const c=3
+        console.log(a)
+        console.log(b)
+        console.log(c)
+    </script>
+</body>
+</html>

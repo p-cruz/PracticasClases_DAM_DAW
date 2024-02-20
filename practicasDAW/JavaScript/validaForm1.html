@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .error{
+            background-color: red;
+        }
+        .ok{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post" name="miForm1">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" required maxlength="20" minlength="3">
+        <br>
+        <label for="Edad">Edad</label>
+        <input type="number" name="Edad" id="Edad" required placeholder="mayor o igual de 18">
+        <br>
+        <label for="Salario">Salario deseable</label>
+        <input type="number" name="Salario" id="Salario" required placeholder="Entre 1200 y 4000">
+        <br>
+        <label for="ciclo">Ciclo que estudias</label>
+        <input type="radio" name="ciclo" value="DAM">DAM 
+        <input type="radio" name="ciclo" value="DAW">DAW 
+        <input type="radio" name="ciclo" value="ASIR">ASIR
+        <br>
+        <label for="aficiones">Aficiones</label>
+        <input type="checkbox" name="aficiones" value="deporte">deporte <br>
+        <input type="checkbox" name="aficiones" value="musica">Música <br>
+        <input type="checkbox" name="aficiones" value="cine">Cine <br>
+        <input type="checkbox" name="aficiones" value="lectura">lectura <br>
+        <input type="checkbox" name="aficiones" value="ninguna">Ninguna <br>
+        <label for="poblacion">Población</label>
+        <select name="poblacion" id="poblacion">
+            <option value="ninguna">Elige poblacion...</option>
+            <option value="valdepenias">Valdepeñas</option>
+            <option value="Torrenueva">Torrenueva</option>
+        </select>
+        
+        <input type="submit" value="Enviar datos">
+    </form>
+    <script>
+        document.forms.miForm1.addEventListener('submit',function (event){
+            event.preventDefault();
+            validar();
+        });
+
+        function validar(){
+            var fallos=0;
+            if (document.miForm1.Edad.value<18){ //document.getElementById('Edad').value
+                document.miForm1.Edad.className='error';
+                fallos++;
+            }else{
+                document.miForm1.Edad.className='ok';
+            }
+            if(document.miForm1.Salario.value<1200 || document.miForm1.Salario.value>4000){
+                document.miForm1.Salario.className='error';
+                fallos++;
+            }else{
+                document.miForm1.Salario.className='ok';
+            }
+            if(!document.miForm1.ciclo[0].checked && 
+                !document.miForm1.ciclo[1].checked && 
+                !document.miForm1.ciclo[2].checked){
+                    alert('tienes que marcar un ciclo formativo')
+                    fallos++;
+            }
+            if(!document.miForm1.aficiones[0].checked && 
+                !document.miForm1.aficiones[1].checked && 
+                !document.miForm1.aficiones[2].checked &&
+                !document.miForm1.aficiones[3].checked &&
+                !document.miForm1.aficiones[4].checked){
+                    alert('tienes que marcar una opción')
+                    fallos++;
+            }
+
+           //if(document.miForm1.poblacion[0].selected){
+            if (document.miForm1.poblacion.selectedIndex==0) {
+                alert('Debes elegir una poblacion');
+                fallos++;
+            }
+
+            if(fallos==0){
+                alert('Gracias por rellenar el formulario');
+                document.forms.miForm1.submit();
+                return true;
+            }else{
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>

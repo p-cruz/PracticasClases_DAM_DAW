@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="aqui"></div>
+    <script>/*
+        var ej1={
+                    "nombre": "Ana",
+                    "ciudad": "Barcelona"
+                }
+        console.log(ej1);
+        console.log(ej1.nombre)
+        var ej2=[
+            {
+                "nombre": "Ana",
+                "ciudad": "Barcelona"            
+            },
+            {
+                "nombre": "Luisa",
+                "ciudad": "Madrid"            
+            }
+        ];
+        console.log(ej2)
+        console.log(ej2[1].nombre)
+        var ej3={
+            "alumnado":[
+                            {
+                                "nombre": "Ana",
+                                "ciudad": "Barcelona"            
+                            },
+                            {
+                                "nombre": "Luisa",
+                                "ciudad": "Madrid"            
+                            }
+                        ]
+        }
+        console.log(ej3)
+        console.log(ej3.alumnado[1].nombre)
+        for (let i=0; i<ej3.alumnado.length; i++){
+            console.log(ej3.alumnado[i].nombre)
+        }*/
+        var ejercicio1={
+            "horasSemana":[{
+                        "dia":0
+                    },
+                    {
+                        "dia":0
+                    }
+                ]
+        }
+        console.log(ejercicio1.horasSemana[0].dia)
+        var ejercicio1b={
+            "horasSemana":[0,0,0,2,2]
+        }
+        console.log(ejercicio1b.horasSemana[0])
+        var ejercicio1c={
+            "horasSemana":[
+                {
+                    "dia":"lunes",
+                    "horas":0
+                },
+                {
+                    "dia":"martes",
+                    "horas":0
+                }
+            ]
+        }
+        console.log(`El ${ejercicio1c.horasSemana[1].dia} tiene ${ejercicio1c.horasSemana[1].horas} horas`)
+        //ejercicio2
+        var ejercicio2={
+            "modulo":"LMSGI",
+            "profe":"Paula",
+            "horasSemana":[
+                            {
+                                "dia":"lunes",
+                                "horas":0
+                            },
+                            {
+                                "dia":"martes",
+                                "horas":0
+                            }
+                         ]
+        };
+        //ejercicio3
+        var ejercicio3={
+            "modulos":[{
+                            "modulo":"LMSGI",
+                            "profe":"Paula",
+                            "horasSemana":[
+                                            {"dia":"lunes",  "horas":0},
+                                            {"dia":"martes","horas":0}
+                                        ]
+                        },
+                        {
+                            "modulo":"BBDD",
+                            "profe":"Paula",
+                            "horasSemana":[
+                                            {"dia":"lunes", "horas":2},
+                                            {"dia":"martes","horas":0},
+                                            {"dia":"miercoles","horas":0}
+                                        ]
+                        },
+                        {
+                            "modulo":"SSII",
+                            "profe":"Julián",
+                            "horasSemana":[
+                                            {"dia":"lunes", "horas":2},
+                                            {"dia":"martes","horas":0}
+                                        ]
+                        },
+                        {
+                            "modulo":"Programación",
+                            "profe":"Manu",
+                            "horasSemana":[
+                                            {"dia":"lunes", "horas":2},
+                                            {"dia":"martes","horas":2}
+                                        ]
+                        }
+                    ]
+                };
+            var texto="";
+            for (let i=0; i<ejercicio3.modulos.length; i++){
+                texto+=`<h2>Módulo = ${ejercicio3.modulos[i].modulo}</h2><br> profe= ${ejercicio3.modulos[i].profe}<br> `;
+                for (let j=0; j<ejercicio3.modulos[i].horasSemana.length; j++){
+                    texto+=`${ejercicio3.modulos[i].horasSemana[j].dia}:${ejercicio3.modulos[i].horasSemana[j].horas} <br>`
+                }
+            }
+            document.getElementById('aqui').innerHTML=texto;
+            
+            console.log(JSON.stringify(ejercicio3))
+            console.log(Object.keys(ejercicio3.modulos[0]))
+    </script>
+</body>
+</html>

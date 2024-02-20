@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+            text-align: center;
+        }
+        #dias, #mes{
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            list-style: none;
+            gap: 4px;
+        }
+        #dias > li{
+            background-color: darkslateblue;
+            color:white;
+        }
+        #mes{
+            counter-reset:ndia;
+        }
+        #mes > li{
+            border:2px solid black;
+            border-radius: 10px;
+            padding: 0.5px;
+        }
+        #mes li::after{
+            counter-increment: ndia;
+            content: counter(ndia);
+        }
+        #mes li:nth-child(1){
+            grid-column: 3;
+        }
+        #mes li:nth-child(1), #mes li:nth-child(4), #mes li:nth-child(5), #mes li:nth-child(n+11):nth-child(-n+12), #mes li:nth-child(n+18):nth-child(-n+19), #mes li:nth-child(n+25):nth-child(-n+26){
+            background-color: red;
+            color:white;
+        }
+        #mes li:nth-child(17){
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <ul id="dias">
+        <li>LUNES</li>
+        <li>MARTES</li>
+        <li>MIÉRCOLES</li>
+        <li>JUEVES</li>
+        <li>VIERNES</li>
+        <li>SÁBADO</li>
+        <li>DOMINGO</li>
+    </ul>
+    <h2>NOVIEMBRE</h2>
+    <ul id="mes">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>

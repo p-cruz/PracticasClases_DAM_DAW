@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		table {
+			width:300px;
+			height:100px;
+		}
+		#primero{
+			background-color:#3486ab;
+		}
+		#segundo{
+			background-color:#abd2c8;
+		}
+		#tercero{
+			background-color:#93d62c;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<h2>Cambiar color de fondo din&aacute;micamente</h2>
+	<p>Coloca el rat&oacute;n sobre cada cuadrado</p>
+
+	<table>
+	<tr>
+	<td id="primero">  </td>
+	<td id="segundo">  </td>
+	<td id="tercero">  </td>
+	</tr>
+	</table>
+
+	<script type="text/javascript">
+		document.getElementById('primero').addEventListener("mouseover", ponFondo('#3486ab'));
+		document.getElementById('primero').addEventListener("mouseout", ponFondo('white'));
+		document.getElementById('segundo').addEventListener("mouseover", ponFondo('#abd2c8'));
+		document.getElementById('segundo').addEventListener("mouseout", ponFondo('white'));
+		document.getElementById('tercero').addEventListener("mouseover", ponFondo('#93d62c'));
+		document.getElementById('tercero').addEventListener("mouseout", ponFondo('white'));
+		 
+		function ponFondo(color) {
+	     document.body.style.background =  color;     
+	   	}
+		
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #contenedor{
+            background-color: aquamarine;
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            align-content:stretch;
+            height: 250px;
+        }
+        #contenedor > div{
+            background-color: green;
+            width: 200px;
+            border:1px solid white;
+            height: 50px;
+        }
+        #abajo{
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div>1</div>
+        <div>2</div>
+        <div id="abajo">3</div>
+        <div>4</div>
+       <!-- <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>-->
+    </div>  
+</body>
+</html>

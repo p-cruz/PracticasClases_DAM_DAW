@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="tutorial" width="1000" height="500" style="border: 1px solid grey;">
+        Tu navegador no soporta canvas. Actualizalo
+    </canvas>
+    <button onclick="canvas();">Dibujar circulo </button>
+
+<script type="text/javascript">
+    function circulo(x,y,radio) {
+        var c=document.getElementById("tutorial");
+        var dibujo=c.getContext("2d");
+        dibujo.fillStyle ="blue";
+        dibujo.beginPath();
+        dibujo.arc(x,y,radio,0,Math.PI*2,true);
+        dibujo.closePath();
+        dibujo.fill();
+    }
+
+    function linea(y,radio){
+			for (var x=50;x<=950;x+=100){
+				circulo(x,y,radio);
+			}	
+    }
+
+    function canvas(){
+        var y=50;
+        for (var y=50;y<550;y+=100){
+            linea(y,50);
+        }
+        
+    }
+    </script>
+</body>
+</html>

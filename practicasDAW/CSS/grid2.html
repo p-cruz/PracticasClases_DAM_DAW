@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+        }
+        #contenedor{
+            background-color: aquamarine;
+            display: grid;
+            grid-template-areas: "z1 z1 z1"
+                                 "z2 z3 z3"
+                                 "z2 z3 z3"
+                                 "z4 z4 z4";
+            height: 600px;
+        }
+        #header{
+            background-color: blue;
+            grid-area: z1;
+        }
+        #sidebar{
+            background-color: cadetblue;
+            grid-area: z2;
+        }
+        #main{
+            background-color: darkolivegreen;
+            grid-area: z3;
+        }
+        #footer {
+            background-color: deepskyblue;
+            grid-area: z4;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="header">cabecera</div>
+        <div id="sidebar">lateral</div>
+        <div id="main">principal</div>
+        <div id="footer">pie</div>
+    </div>
+</body>
+</html>

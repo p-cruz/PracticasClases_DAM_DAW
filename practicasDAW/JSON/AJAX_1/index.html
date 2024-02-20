@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DATOS DE PERSONAS</h1>
+    <div id="info"></div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var datos = JSON.parse(xhr.responseText);
+                console.log(datos);
+                trataDatos(datos);
+                //info.innerHTML += '<h2>El nombre es ' + datos.nombre + ' y su apodo es ' + datos.nickname + '</h2><hr>';
+            }
+        }
+        xhr.open('GET', 'http://127.0.0.1:8080/personas2.json', true);
+        xhr.send();
+        var info = document.getElementById('info');
+        info.innerHTML += '<h2>Esperando respuesta...</h2>';
+
+        function trataDatos(datos) {
+            var info = document.getElementById('info');
+            for (var i = 0; i < datos.personas.length; i++) {
+                info.innerHTML += '<h2>el nombre es ' + datos.personas[i].nombre + ' y el apodo es  ' + datos.personas[i].nickname + '</h2><hr>';
+            }
+        }
+    </script>
+</body>
+</html>

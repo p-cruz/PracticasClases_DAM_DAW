@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="n">Numero</label>
+    <input type="number" id="numero" name="numero"><br>
+    <label for="pot">Potencia</label>
+    <input type="number" id="pot">
+    <button onclick="potencia(parseFloat(numero.value), parseFloat(document.getElementById('pot').value))">Calcular</button>
+    <script>
+       /* for(let x=1; x<=9; x++){
+            document.body.insertAdjacentHTML('beforeend',`<h2>TABLA DE MULTIPLICAR DEL ${x}`);
+            for(let y=0; y<=10; y++){
+                document.body.insertAdjacentHTML('beforeend',`${x} * ${y} = ${x*y}<br>`)
+            }
+            document.body.insertAdjacentHTML('beforeend',`<hr>`);
+        }
+        document.body.insertAdjacentHTML('beforeend',`${2**10}`);*/
+
+        function potencia(n,p){
+            var resultado=1;
+            for(let c=0; c<p;c++){
+                resultado*=n;
+                document.body.insertAdjacentHTML('beforeend',`<h4>${resultado}</h4>`);
+            }
+        }
+    </script>
+
+
+</body>
+</html>

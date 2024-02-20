@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PROVINCIAS Y MUNICIPIOS ESPAÑA</h1>
+    <select id="provincias">
+        <option value="0">Selecciona una provincia</option>
+    </select>
+    <select id="municipios">
+        <option value="0">Selecciona un municipio</option>
+    </select>
+    <script>
+        var xhrProv = new XMLHttpRequest();
+        xhrProv.onreadystatechange = function() {
+            if (xhrProv.readyState == 4 && xhrProv.status == 200) {
+                var datosProvincias = JSON.parse(xhrProv.responseText);
+                console.log(datosProvincias);
+                ponProvincias(datosProvincias);
+            }
+        }
+        xhrProv.open('GET', 'http://127.0.0.1:8080/provincias.json', true);
+        xhrProv.send();
+
+        var xhrMuni = new XMLHttpRequest();
+        xhrMuni.onreadystatechange = function() {
+            if (xhrMuni.readyState == 4 && xhrMuni.status == 200) {
+                var datosMunicipios = JSON.parse(xhrMuni.responseText);
+                ponMunicipios(datosMunicipios);
+            }
+        }
+        xhrMuni.open('GET', 'http://127.0.0.1:8080/municipios.json', true);
+        xhrMuni.send();
+
+
+        function ponProvincias(listadoProvincias){
+            var listadoProvincias=listadoProvincias.sort(function (a,b){
+                                                           return a.nm.localeCompare(b.nm)
+                                                        });
+            var provincias = document.getElementById('provincias');
+            for (var i = 0; i < listadoProvincias.length; i++) {
+                provincias.innerHTML += `<option value="${listadoProvincias[i].id}"> ${listadoProvincias[i].nm} </option>`;
+            }
+        }
+
+        function ponMunicipios(listadoMunicipios){
+            var selectProvincias=document.getElementById('provincias');
+            selectProvincias.addEventListener('change',  function(e){
+                var idProvincia=this.value;
+                console.log(idProvincia)
+                var selectMunicipios=document.getElementById('municipios');
+                selectMunicipios.innerHTML='';
+                //var municipios=datosMunicipios.filter(municipio=>municipio.idProv==idProvincia);
+                var option=document.createElement('option');
+                option.value=0;
+                option.text='Seleccione una población...';
+                selectMunicipios.appendChild(option);
+                for (let i = 0; i < listadoMunicipios.length; i++) {
+                    //if(idProvincia == listadoMunicipios[i].id.substr(0,2)){
+                    if(listadoMunicipios[i].id.startsWith(idProvincia)){
+                        option=document.createElement('option');
+                        option.value=listadoMunicipios[i].id;
+                        option.text=listadoMunicipios[i].nm;
+                        selectMunicipios.appendChild(option);
+                    }
+                }
+        });
+        }
+    </script>
+</body>
+</html>

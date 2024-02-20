@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="nombre">Numero1</label>
+    <input type="text" name="nombre" id="nombre">
+    <br>
+    <label for="fnac">Numero1</label>
+    <input type="date" name="fnac" id="fnac">
+    <button onclick="saberEdad(nombre.value, fnac.value)">Mostrar datos</button>
+    <br>
+    <script>
+        function saberEdad(n,f){
+            var hoy=new Date();
+            var fNac=new Date(f);
+            var edad=Math.trunc((hoy-fNac)/(1000*3600*24*365.25));
+            muestraDatos(n,edad);
+        }
+        function muestraDatos(nombre,edad){
+            document.body.insertAdjacentHTML('beforeend',`Nombre = ${nombre}, edad = ${edad} <br>`);
+        }
+
+        document.write('sdfkjslfkjsdfk')
+        document.getElementById('identificador').innerHTML
+    </script>
+</body>
+</html>

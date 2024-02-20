@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        #primero{
+            background-color: aqua;
+        }
+        #segundo{
+            background-color: blueviolet;
+        }
+        #tercero{
+            background-color: chartreuse;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="primero"></div>
+    <div id="segundo"></div>
+    <div id="tercero"></div>
+    <script>
+        function cambiaColor(color){
+            document.body.style.backgroundColor=color;
+        }
+    </script>
+</body>
+</html>

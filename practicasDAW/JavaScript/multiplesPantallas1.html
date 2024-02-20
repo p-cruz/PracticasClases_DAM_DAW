@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .visible{
+            display: block;
+        }
+        .noVisible{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIENVENID@S</h1>
+    <div id="pg1">
+        <form action="">
+            <input type="text">
+            <input type="text">
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+        </form>
+    </div>
+    <div id="pg2" class="noVisible"></div>
+    <div id="pg3" class="noVisible"></div>
+    <button disabled>Anterior</button>
+    <button onclick="validarPg()">Siguiente</button>
+    <script>
+        var pagActual=1;
+        //cargar los 3 select de pg1 con los options
+        function validarPg(){
+            switch (pagActual){
+                case 1: 
+                    validarPg1();
+                    break;
+                case 2:
+                    validarPg2();
+            }
+        }
+
+        function validarPg1(){
+            validadNIF();
+            
+        }
+    </script>
+</body>
+</html>ml

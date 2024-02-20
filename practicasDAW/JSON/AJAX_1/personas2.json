@@ -1,0 +1,14 @@
+{
+    "personas": [
+        {"nombre": "Juan", "nickname": "Juancho" },
+        {"nombre": "Ana", "nickname": "Anita" },
+        {"nombre": "Pedro", "nickname": "Pepito" },
+        {"nombre": "Maria", "nickname": "Maru" },
+        {"nombre": "Luis", "nickname": "Lucho" },
+        {"nombre": "Sofia", "nickname": "Sofi" },
+        {"nombre": "Carlos", "nickname": "Carlitos" },
+        {"nombre": "Lucia", "nickname": "Luci" },
+        {"nombre": "Miguel", "nickname": "Migue" },
+        {"nombre": "Laura", "nickname": "Lau" }
+    ]
+}

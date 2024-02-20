@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <label for="palabra">Indica la palabra</label>
+        <input type="text" id="palabra">
+        <br>
+        <label for="veces">Indica la cantidad de veces que quieres que se muestre</label>
+        <input type="number" id="veces">
+        <hr>
+        <div onclick="forma3(document.querySelector('#palabra').value,parseInt(document.querySelector('#veces').value))">Pulsa para mostrar</div>
+    </form>
+    <div id="tabla"></div>
+    <table id="tabla2"></table>
+    <script>
+        function forma1(p,n){
+            var texto='<table>';
+            for (let i=0;i<n;i++){
+                texto+=`<tr><td>${p}</td></tr>`;
+            }
+            texto+='</table>';
+            document.querySelector('#tabla').innerHTML=texto;
+        }
+
+        function forma2(p,n){
+            var tabla=document.querySelector('#tabla2');
+            var fila,celda;
+            for (let i=0;i<n;i++){
+                fila=tabla.insertRow(i);
+                celda=fila.insertCell(0);
+                celda.innerHTML=p;
+            }
+        }
+
+        function forma3(p,n){
+            var tabla=document.querySelector('#tabla2');
+            var fila,celda,textoCelda;
+            for (let i=0;i<n;i++){
+                fila=document.createElement('tr');
+                celda=document.createElement('td');
+                textoCelda=document.createTextNode(p);
+                celda.appendChild(textoCelda);
+                fila.appendChild(celda);
+                tabla.appendChild(fila);
+            }
+        }
+    </script>
+</body>
+</html>

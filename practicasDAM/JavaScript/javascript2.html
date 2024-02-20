@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de entrada de datos para sumar</h1>
+    <form action="#" method="post">
+        <label for="dato1">Nombre</label>
+        <input type="text" name="dato1" id="dato1"> <br>
+        <label for="dato2">Fecha de nacimiento</label>
+        <input type="date" name="dato2" id="dato2">
+        <button type="button" onclick="mostrarDatos(dato1.value,dato2.value)">Pulsa para mostrar el resultado</button>
+    </form>
+    <p id="resultado"></p>
+    <script>
+        function mostrarDatos(n1,n2){
+            var edad=calcularEdad(new Date(n2));
+            var anios=Math.trunc(edad);
+            var dias=(edad-anios)*365;
+            document.getElementById('resultado').innerHTML=`Nombre= ${n1} y edad ${anios} con ${Math.trunc(dias)} dias de vida`;
+
+        }
+
+        function calcularEdad(fnac){
+            var hoy=new Date();
+            var edad= (hoy-fnac)/(1000*60*60*24*365);
+            return edad;
+        }
+
+    /*    suma(1,2,'a');
+        suma(10,20,40);
+        suma(1.45,2322,3.454);
+        suma(1.343,20.456,40.232);*/
+    </script>
+</body>
+</html>

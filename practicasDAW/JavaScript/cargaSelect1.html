@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form action="#" name="miForm" method="post">
+        <label for="dia">Dia</label>
+        <select id="dia" name="dia">
+            <option value="0">Elige día...</option>
+        </select>
+        <br>
+        <label for="mes">Mes</label>
+        <select id="mes" name="mes">
+            <option value="0">Elige mes...</option>
+        </select>
+    </form>
+    <script>
+        var selectDia=document.miForm.dia;
+        for(let i=1;i<32;i++){
+            var opcionNueva=document.createElement("option")
+            opcionNueva.value=i;
+            opcionNueva.text=i;
+            selectDia.add(opcionNueva)
+        }
+        var selectMes=document.miForm.mes;
+        var meses=['enero','febrero', 'marzo','abril','mayo','junio','julio','agosto','septiembre', 'octubre', 'noviembre','diciembre'];
+        for (let i=0; i<meses.length; i++){
+            var opcionNueva=document.createElement("option")
+            opcionNueva.value=i+1;
+            opcionNueva.text=meses[i];
+            selectMes.add(opcionNueva)
+        }
+        console.log(meses)
+    </script>
+</body>
+</html>

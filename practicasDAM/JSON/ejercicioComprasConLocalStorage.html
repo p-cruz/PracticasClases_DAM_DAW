@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form id="formularioCompras">
+            <input type="text" id="producto" placeholder="Producto">
+            <button type="button" onclick="guardaItem()">Guardar compra</button>
+        </form>
+        <div id="listado"></div>
+        <script>
+            var lista=[];
+
+            function guardaItem(){
+                var item = {
+                    "nombre":document.getElementById('producto').value
+                };
+                console.log(item)
+                var lista=[];
+                if (localStorage.getItem('listaItems')!=null){
+                    lista=JSON.parse(localStorage.getItem('listaItems'))
+                }
+                lista.push(item);
+                localStorage.setItem('listaItems',JSON.stringify(lista))
+                muestraItems();
+            }
+
+            function muestraItems(){
+                var lista=[];
+                if (localStorage.getItem('listaItems')!=null){
+                    lista=JSON.parse(localStorage.getItem('listaItems'))
+                }
+                let posicionListado=document.getElementById('listado');
+                posicionListado.innerHTML='';
+                for(let i=0;i<lista.length;i++){
+                    let nombre=lista[i].nombre;
+                    posicionListado.innerHTML+=`<p>${nombre}-<a href="#" onclick="borraItem('${i}')">Delete</a></p>`;
+                }
+            }
+
+            function borraItem(n){
+                var lista=[];
+                if (localStorage.getItem('listaItems')!=null){
+                    lista=JSON.parse(localStorage.getItem('listaItems'))
+                }
+                lista.splice(n,1);
+                localStorage.setItem('listaItems',JSON.stringify(lista))
+                muestraItems();
+            }
+
+            muestraItems();
+        </script>
+    </body>
+</html>

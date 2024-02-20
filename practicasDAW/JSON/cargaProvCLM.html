@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id='miFormulario'>
+        <label for="provinciasCLM">Provincias CLM</label>
+        <select name="provinciasCLM" id="provinciasCLM">
+            <option value="">Seleccione una Provincia...
+        </select>
+        <br>
+        <hr>
+        <label for="provincias">Provincias España</label>
+        <select name="provincias" id="provincias">
+            <option value="" disabled>Seleccione una Provincia...</option>
+        </select>
+        <label for="municipios">Municipios</label>
+        <select name="municipios" id="municipios">
+        </select>
+    </form>
+    <script src="datosProvMuni.js"></script>
+    <script>
+        var provCLM={
+            "provincias":[
+                {"nombre":"Albacete"},
+                {"nombre":"Ciudad Real"},
+                {"nombre":"Cuenca"},
+                {"nombre":"Guadalajara"},
+                {"nombre":"Toledo"}
+            ]
+        };
+    
+        var prov2CLM=[
+            {"nombre":"Albacete"},
+            {"nombre":"Ciudad Real"},
+            {"nombre":"Cuenca"},
+            {"nombre":"Guadalajara"},
+            {"nombre":"Toledo"}
+        ];
+        
+        selectProvinciasCLM=document.getElementById('provinciasCLM');
+        for (let i = 0; i <script provCLM.provincias.length; i++) {
+            var option=document.createElement('option');
+            option.value=provCLM.provincias[i].nombre;
+            option.text=provCLM.provincias[i].nombre;
+            selectProvinciasCLM.appendChild(option);
+        }
+
+
+    </script>
+</body>
+</html>

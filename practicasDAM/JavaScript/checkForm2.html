@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <style>
+        body{
+            margin:50px;
+        }
+        .error{
+            background-color: red;
+        }
+        .ok{
+            background-color: white;
+        }
+        .dcha{
+            text-align: right;
+        }
+        .noVisible{
+            display: none;
+        }
+        .visible{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center"><h2>Formulario a validar en cliente</h2></div>
+        <hr>
+        <div class="row">
+            <div class="col-6 dcha">
+                <form action="#" name="miForm1" method="post">
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <label for="edad">Edad</label>
+                    <br>
+                    <label for="salario">Salario deseable como programador/a</label>
+                    <br><br>
+                    Ciclo Formativo que estudias:
+                    <br><br><br><br>
+                    <label for="aficiones">Aficiones</label>
+                    <br><br><br>
+                    <label for="poblacion">Población</label>
+            </div>
+            <div class="col-6">
+                    <input type="text" name="nombre" id="nombre" size="20" minlength="2" maxlength="20" required autofocus>
+                    <br>
+                    <input type="number" id="edad" name="edad" required placeholder="mayor de edad">
+                    <br>
+                    <input type="number" id="salario" name="salario" required placeholder="Entre 1200-4000">
+                    <br>
+                    <input type="radio" name="ciclo" value="DAM">DAM <br>
+                    <input type="radio" name="ciclo" value="DAW">DAW <br>
+                    <input type="radio" name="ciclo" value="ASIR">ASIR <br>
+                    <input type="checkbox" name="aficiones" value="deporte">Practicar algún deporte <br>
+                    <input type="checkbox" name="aficiones" value="musica">Escuchar música o tocar algún instrumento <br>
+                    <input type="checkbox" name="aficiones" value="cine">Ver cine <br>
+                    <input type="checkbox" name="aficiones" value="lectura">Leer <br>
+                    <input type="checkbox" name="aficiones" value="ninguna">Ninguna <br>
+                    <select name="poblacion" onchange="eligePoblacion()">
+                        <option value="ninguna">Elige poblacion...</option>
+                        <option value="valdepenas">Valdepeñas</option>
+                        <option value="moral">Moral de Calatrava</option>
+                        <option value="solana">La Solana</option>
+                        <option value="bolanos">Bolaños</option>
+                        <option value="otra">Otra población...</option>
+                    </select><br>
+                    <div id="otraPoblacion" class="noVisible">
+                        <label for="otraPob">Escribe su nombre</label>
+                        <input type="text" id="otraPob">
+                    </div><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.forms.miForm1.addEventListener('submit', function (event){
+            event.preventDefault();
+            validar();
+        })
+        function validar(){
+            var fallos=0;
+            if(document.getElementById("edad").value < 18){
+                document.getElementById("edad").className='error';
+                fallos++;
+            }else{
+                document.getElementById("edad").className='ok';
+            }
+            if (document.forms.miForm1.salario.value<1200 || document.forms.miForm1.salario.value>4000){
+                document.getElementById("salario").className='error';
+                fallos++;
+            }else{
+                document.getElementById("salario").className='ok';
+            }
+            if(!document.forms.miForm1.ciclo[0].checked && 
+                !document.forms.miForm1.ciclo[1].checked && 
+                !document.forms.miForm1.ciclo[2].checked ){
+                alert('Debes marcar un ciclo formativo')
+                fallos++;
+            }
+            if(!document.miForm1.aficiones[0].checked && 
+                !document.miForm1.aficiones[1].checked && 
+                !document.miForm1.aficiones[2].checked && 
+                !document.miForm1.aficiones[3].checked &&
+                !document.miForm1.aficiones[4].checked){
+                    alert('Debes poner alguna afición o ninguna');
+                    fallos++;
+            }
+            //if (document.miForm1.poblacion.selectedIndex==0){
+            if(document.miForm1.poblacion[0].selected){
+                alert('no se ha elegido poblacion');
+                fallos++;
+            }
+            if(document.miForm1.poblacion[5].selected && document.miForm1.otraPob.value.length==0){
+                document.getElementById("otraPob").className='error';
+                fallos++;
+            }
+            if (fallos==0){
+                alert('Gracias por enviar los datos, se procede al envio del formulario');
+                document.forms.miForm1.submit();
+            }
+        }
+        function eligePoblacion(){
+            if (document.miForm1.poblacion[5].selected){
+                document.getElementById('otraPoblacion').setAttribute('class','visible')
+            }else{
+                document.getElementById('otraPoblacion').setAttribute('class','noVisible')
+            }
+        }
+    </script>
+</body>
+</html>

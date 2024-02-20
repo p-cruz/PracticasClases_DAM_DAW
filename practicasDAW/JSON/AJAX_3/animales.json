@@ -1,0 +1,19 @@
+{
+	"animales": [{
+			"name": "mau",
+			"species": "gato",
+			"foods": {
+				"likes": ["leche", "pescado"],
+				"dislikes": ["carne", "verdura"]
+			}
+		},
+		{
+			"name": "urko",
+			"species": "perro",
+			"foods": {
+				"likes": ["salchichas"],
+				"dislikes": ["leche"]
+			}
+		}
+	]
+}

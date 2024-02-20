@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td{
+            border:5px solid red;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        tr{
+            height: 50px;
+        }
+        .azul{
+            background-color: blue;
+            color:aqua;
+            font-family: fantasy;
+            font-size: medium;
+        }
+        .verde{
+            background-color: green;
+            color:aquamarine;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-stretch: expanded;
+        }
+        .rojo{
+            background-color: red;
+            color:beige;
+        }
+        #cuatro{
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="azul verde">1</td>
+            <td class="verde">2</td>
+            <td class="azul">3</td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="rojo" id="cuatro">4</td>
+            <td colspan="2" class="verde">5</td>
+        </tr>
+        <tr>
+            <td class="azul">6</td>
+            <td class="rojo">7</td>
+        </tr>
+    </table>
+</body>
+</html>

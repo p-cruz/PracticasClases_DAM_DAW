@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>/*
+        var ejemplo1JSON={
+                            "nombre": "Laura",
+                            "edad": 25,
+                            "aficiones": [
+                                "deporte",
+                                "música",
+                                "lectura"
+                            ]
+                        };
+        var horasModulo=
+        console.log(ejemplo1JSON)
+        console.log(ejemplo1JSON.nombre)
+
+        //Crea una vble json que contenga el número de horas a la
+        //semana de un módulo (asignatura)
+        var horasSemana1Modulo=[
+                {
+                    "dia":"lunes",
+                    "horas":2
+                },
+                {
+                    "dia":"martes",
+                    "horas":2
+                },
+                {
+                    "dia":"miercoles",
+                    "horas":0
+                },
+                {
+                    "dia":"jueves",
+                    "horas":0
+                },
+                {
+                    "dia":"viernes",
+                    "horas":0
+                }
+            ];
+            console.log(horasSemana1Modulo[0]);
+            console.log(horasSemana1Modulo[0].dia)
+            for (let i=0; i<horasSemana1Modulo.length; i++){
+                document.write(`Dia: ${horasSemana1Modulo[i].dia} tiene ${horasSemana1Modulo[i].horas} horas <br>`);
+            }
+
+            ejercicio1={
+                "horas":[2,2,0,0,0]
+            }
+            for (let i=0; i<ejercicio1.horas.length; i++){
+                console.log(`Dia ${i+1} --> ${ejercicio1.horas[i]} horas`)
+            }
+            var ejercicio1b={
+                "lenguajeDeMarcas":{
+                                        "lunes":2,
+                                        "martes":2,
+                                        "miercoles":0,
+                                        "jueves":0,
+                                        "viernes":0
+                                    }
+            }
+            console.log(ejercicio1b.lenguajeDeMarcas.lunes)
+            
+            
+            //Crea un json que contenga el nombre, profesor/a y horas de un módulo
+            var ejercicio2a={
+                "nombreModulo":"LMSGI",
+                "profe":"Paula",
+                "horas":[2,2,0,0,0]
+            }
+            console.log(ejercicio2a.nombreModulo)
+            console.log(ejercicio2a.profe)
+            for (let i=0; i<ejercicio2a.horas.length;i++){
+                console.log(`Dia ${i+1} --> ${ejercicio2a.horas[i]} horas`)
+            }
+
+            //otra forma
+            var ejercicio2b={
+                "nombreModulo":"LMSGI",
+                "profe":"Paula",
+                "horas":horasSemana1Modulo
+            }
+            ejercicio2b.horas[2].horas=3;
+            ejercicio2b.horas.forEach(function (element){
+                console.log(`${element.dia} --> ${element.horas}`)
+            });*/
+
+            //ejercicio 3
+            var ejercicio3 = {
+                    "horario":[
+                        {
+                            "nombre":"ENDE",
+                            "profe":"Trini",
+                            "horas":[2,0,0,0,1]
+                        },
+                        {
+                            "nombre":"LMSGI",
+                            "profe":"Paula",
+                            "horas":[2,2,0,0,0]
+                        }
+                    ]
+            }
+            for (let i=0; i<ejercicio3.horario.length; i++){
+                console.log(`Módulo: ${ejercicio3.horario[i].nombre}`);
+                console.log(`Profe: ${ejercicio3.horario[i].profe}`);
+                for (let j=0; j<ejercicio3.horario[i].horas.length; j++){
+                    console.log(`Dia ${j+1} --> ${ejercicio3.horario[i].horas[j]} horas`);
+                }
+            };
+            var ejercicio3b=[
+                    {
+                        "modulo":"Lenguaje de marcas",
+                        "profe": "Paula",
+                        "lunes": 2,
+                        "martes": 2
+                    },
+                    {
+                        "modulo":"Programacion",
+                        "profe": "Manu",
+                        "lunes": 2,
+                        "martes": 3
+                    }
+            ]
+            for (let i=0; i<ejercicio3b.length; i++){
+                console.log(ejercicio3b[i].modulo);
+                console.log(ejercicio3b[i].martes)
+            }
+
+            //ejercicio4
+            ejercicio4={
+                "lunes":[
+                    {
+                        "modulo":"Programacion",
+                        "profe": "Manu"
+                    },
+                    {
+                        "modulo":"Programacion",
+                        "profe": "Manu"
+                    },
+                    {
+                        "modulo":"Lenguaje de marcas",
+                        "profe": "Paula"
+                    },
+                    {
+                        "modulo":"Lenguaje de marcas",
+                        "profe": "Paula"
+                    },
+                    {
+                        "modulo":"Entornos de desarrollo",
+                        "profe": "Trini"
+                    }
+                ],
+                "martes":[
+                    
+                ]
+            }
+    </script>
+</body>
+</html>

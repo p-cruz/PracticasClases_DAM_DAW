@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form name="miFormulario">
+        <label for="mensaje">Escribe el mensaje:</label>
+        <input type="text" id="mensaje" name="mensaje"><br><br>
+        <label for="filas">Indica la cantidad de filas en las que quieres mostrar el mensaje:</label>
+        <input type="number" id="filas" name="filas">
+        <label for="celdas">Indica la cantidad de celdas en las que quieres mostrar el mensaje:</label>
+        <input type="number" id="celdas" name="celdas">
+    </form>
+    <p onclick="metodo3(document.getElementById('mensaje').value,parseInt(document.miFormulario.filas.value), parseInt(document.miFormulario.celdas.value))">Haz clic para probarme</p>
+    <table id="tabla">
+    </table>
+    <script>
+        function metodo1(mensaje, filas, celdas){
+            var tabla='<table>';
+            for (let i=0; i<filas; i++){
+                tabla+=`<tr>`;
+                for (let j=0; j<celdas; j++){
+                    tabla+=`<td>${mensaje}</td>`;
+                }
+                tabla+='</tr>';
+            }
+            tabla+='</table>';
+            document.getElementById('tabla').innerHTML=tabla;
+        }
+
+        function metodo2(mensaje, filas, celdas){
+            var tabla=document.getElementById('tabla');
+            var fila,celda;
+            for (let i=0;i<filas;i++){
+                fila=tabla.insertRow(i);
+                for(let j=0;j<celdas;j++){
+                    celda=fila.insertCell(j);
+                    celda.innerHTML=mensaje;
+                }
+            }
+            
+           
+        }
+
+        function metodo3(mensaje, filas, celdas){
+            var tabla=document.getElementById('tabla');
+            var fila, celda, texto;
+            for (let i=0; i<filas;i++){
+                fila=document.createElement('tr');
+                for (let j=0; j<celdas; j++){
+                    celda=document.createElement('td');
+                    texto=document.createTextNode(mensaje);
+                    celda.appendChild(texto);
+                    fila.appendChild(celda);
+                }
+                tabla.appendChild(fila);
+            }
+        }
+    </script>
+</body>
+</html>

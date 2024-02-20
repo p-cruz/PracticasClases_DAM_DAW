@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            margin:40px;
+        }
+        #primero{
+            background-color: aqua;
+        }
+        #segundo{
+            background-color: blue;
+        }
+        #tercero{
+            background-color: greenyellow;
+        }
+        #primero2{
+            background-color: aqua;
+        }
+        #segundo2{
+            background-color: blue;
+        }
+        #tercero2{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="primero" onmouseover="cambiaColor('aqua')" onmouseout="cambiaColor('red')"></div>
+    <div id="segundo" onmouseover="cambiaColor('blue')" onmouseout="cambiaColor('red')"></div>
+    <div id="tercero" onmouseover="cambiaColor('greenyellow')" onmouseout="cambiaColor('red')"></div>
+    <hr>
+    <div id="primero2"></div>
+    <div id="segundo2"></div>
+    <div id="tercero2"></div>
+    <script>
+        function cambiaColor(color){
+            document.body.style.backgroundColor=color;
+        }
+
+        document.getElementById('primero2').addEventListener('mouseover',function (e){
+            document.body.style.backgroundColor='aqua';
+        });
+        document.getElementById('primero2').addEventListener('mouseout',function (e){
+            document.body.style.backgroundColor='red';
+        });
+        document.getElementById('segundo2').addEventListener('mouseover',(e)=>{
+            cambiaColor('blue');
+        });
+        document.getElementById('segundo2').addEventListener('mouseout',(e)=>{
+            cambiaColor('red')
+        });
+        document.querySelector('#tercero2').onmouseover=function (e){
+            cambiaColor('greenyellow');
+        }
+        document.querySelector('#tercero2').onmouseout=function (e){
+            cambiaColor('red');
+        }
+    </script>
+</body>
+</html>

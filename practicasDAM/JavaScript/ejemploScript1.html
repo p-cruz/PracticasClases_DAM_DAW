@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>parrafo mondo y lirondo</p>
+    <script>
+        function ConcatenaNombreCompleto(n,ap1,ap2){
+            var nombreCompleto = n+' '+ ap1+ ' '+ap2;
+            document.write(nombreCompleto+'<br>');
+        }
+        
+        ConcatenaNombreCompleto('Pilar','Sánchez','López');
+        ConcatenaNombreCompleto('Manuel','Carrasco','Cruz');
+        var nombre=prompt('Dime nombre')
+        var apellido1=prompt('Dime apellido1')
+        var apellido2=prompt('Dime apellido2')
+        ConcatenaNombreCompleto(nombre,apellido1,apellido2)
+    </script>
+</body>
+</html>

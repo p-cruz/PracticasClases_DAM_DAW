@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form name="formularioCompras">
+            <input type="text" id="producto" placeholder="Producto">
+            <button type="button" onclick="guardaItem()">Guardar compra</button>
+        </form>
+        <div id="listado"></div>
+        <script>
+            function guardaItem(){
+                var lista=[];
+                var objeto= {
+                        "nombre":document.getElementById('producto').value
+                };
+                if (localStorage.getItem('datosCompra')!=null) {
+                    lista=JSON.parse(localStorage.getItem('datosCompra'));   
+                }
+                lista.push(objeto);
+                localStorage.setItem('datosCompra',JSON.stringify(lista))
+                //document.getElementById('producto').value='';
+                document.formularioCompras.reset();
+                document.getElementById('producto').focus();
+                muestraItems();
+            }
+
+            function muestraItems(){
+                var lista=[];
+                if (localStorage.getItem('datosCompra')!=null) {
+                    lista=JSON.parse(localStorage.getItem('datosCompra'));   
+                    let posicionListado=document.getElementById('listado');
+                    posicionListado.innerHTML='';
+                    for(let i=0;i<lista.length;i++){
+                        let nombre=lista[i].nombre;
+                        posicionListado.innerHTML+=`<p>${nombre}-<a href="#" onclick="borraItem('${i}')">Delete</a></p>`;
+                    }
+                }
+            }
+
+            function borraItem(n){  
+                var lista=JSON.parse(localStorage.getItem('datosCompra')); 
+                lista.splice(n,1);
+                localStorage.setItem('datosCompra',JSON.stringify(lista));
+                muestraItems();
+            }
+
+            muestraItems();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>El contenedor GRID</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <style>
+        h1, h2{
+            text-align: center;
+        }
+        .container {
+            background-color: rgb(54, 84, 219);
+            display: grid;
+            grid-column-gap: 10px;
+            grid-row-gap: 5px;
+            justify-content: center;  
+            grid-template-columns:10% 5%;
+            margin: 10px auto;
+            padding: 1em;
+        }
+        .container > div {
+            background-color: rgb(134, 190, 241);
+            border: 1px solid black;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Precipitaciones anuales</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" onclick="creaPrecipitaciones()">Generar12ValoresNuevos </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="mediaPrecipitaciones()">PrecipitaciónMedia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" onclick="muestraMax()">PrecipitaciónMáxima</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"onclick="minPrecipitacion()">PrecipitaciónMínima</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="tituloValores"></div>
+    <div id="valoresPrecipitaciones"></div>
+    <div id="mediaPrecipitaciones"></div>
+    <div id="maxPrecipitacion"></div>
+    <div id="minPrecipitacion"></div>
+    <script>
+        var meses=['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo','Junio', 'Julio', 'Agosto','Septiembre','Octure','Noviembre','Diciembre'];
+        var precipitaciones=[];
+        
+        creaPrecipitaciones();
+
+        function creaPrecipitaciones(){
+            for (let i=0; i<12;i++){
+                precipitaciones[i]=Math.floor(Math.random()*101)
+            }
+            muestraPrecipitaciones();
+        }
+
+        function muestraPrecipitaciones(){
+            document.getElementById('tituloValores').innerHTML=`<h1>PRECIPITACIONES MENSUALES</h1>`;
+            var texto='';
+
+            for(let i=0;i<12;i++){
+                texto+=`<div>${meses[i]}</div>
+                        <div>${precipitaciones[i]}</div>`;
+            }
+            document.getElementById('valoresPrecipitaciones').className='container';
+            document.getElementById('valoresPrecipitaciones').innerHTML=texto;
+        }
+
+        function mediaPrecipitaciones(){
+            var media=0;
+            for(let i=0;i<12;i++){
+                media+=precipitaciones[i];
+            }
+            media=media/12;
+            document.getElementById('mediaPrecipitaciones').innerHTML=`<h2>MEDIA DE PRECIPITACIONES: ${media}</h2>`;
+        }
+
+        function minPrecipitacion(){
+            var min=200, pos;
+            for(let i=0;i<12;i++){
+                if(precipitaciones[i]<min){
+                    min=precipitaciones[i];
+                    pos=i;
+                }
+            }
+            document.getElementById('minPrecipitacion').innerHTML=`<h2>MIN PRECIPITACIONES: ${meses[pos]}[${min}]</h2>`;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  </body>
+</html>

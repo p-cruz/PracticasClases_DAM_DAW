@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>PRUEBA DE AJAX</h1><br>
+    <div id="aqui"></div>
+    <script>
+        var peticion = new XMLHttpRequest();
+        peticion.onreadystatechange = function(){
+            if (peticion.readyState == 4 && peticion.status == 200){
+                var datos = JSON.parse(peticion.responseText);
+                console.log(datos);
+                for (let i=0;i<datos.personas.length;i++){
+                    document.getElementById("aqui").innerHTML+=`<h2>Nombre: ${datos.personas[i].nombre}, nickname: ${datos.personas[i].nickname}</h2><hr>`;
+                }
+            }
+        }
+        peticion.open("GET", "http://127.0.0.1:8080/practicasDAM/JSON/AJAX_1/fichero2.json", true);
+        peticion.send();
+    </script>
+</body>
+</html>

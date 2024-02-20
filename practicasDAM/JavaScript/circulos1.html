@@ -1,0 +1,37 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <canvas id="tutorial" width="1000" height="500" style="border: 1px solid grey;">
+            Tu navegador no soporta canvas. Actualizalo
+        </canvas>
+        <button onclick="dibujaTodoCirculos()">Dibujar</button>
+	
+	<script type="text/javascript">
+        function dibujaTodoCirculos(){
+            for(let y=50; y<=450; y+=100){
+                dibujaFilaCirculos(50,y,50);
+            }
+        }
+
+        function dibujaFilaCirculos(posX,posY,radio){
+            while (posX<=950){
+                circulo(posX,posY,radio);
+                posX+=100;
+            }
+        }
+
+        function circulo(x,y,r){
+            var c=document.getElementById("tutorial");
+            var dibujo=c.getContext("2d");
+            dibujo.fillStyle ="blue";
+            dibujo.beginPath();
+            dibujo.arc(x,y,r,0,Math.PI*2,true);
+            dibujo.closePath();
+            dibujo.fill();
+        }
+
+        
+    </script>
+    </body>
+</html>

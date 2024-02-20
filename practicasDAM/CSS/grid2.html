@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #contenedor{
+            background-color: darksalmon;
+            height: 800px;
+            display: grid;
+            grid-template-columns: [c0] 1fr [c1] 1fr  [c2] 1fr [c3];
+            grid-template-rows: [f0]1fr [f1]4fr [f2]1fr [f3];
+        }
+        #header{
+            background-color: aquamarine;
+            grid-column-start: c0;
+            grid-column-end: c3;
+
+        }
+        #sidebar{
+            background-color: bisque;
+        }
+        #main{
+            background-color: cadetblue;
+            grid-column:c1/c3;
+            grid-row:f1/f2;
+        }
+        #footer{
+            background-color: coral;
+            grid-column:c0/c3;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="header"></div>
+        <div id="sidebar"></div>
+        <div id="main"></div>
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

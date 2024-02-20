@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+        }
+        #contenedor{
+            background-color: aquamarine;
+            display: grid;
+            grid-template-columns: [c1]auto [c2]auto [c3]auto [c4];
+            grid-template-rows:[f1]1fr [f2]4fr [f3]1fr [f4];
+            height: 600px;
+        }
+        #header{
+            background-color: blue;
+            /*grid-row-start:f1;
+            grid-row-end: f2;*/
+            grid-row:f1/f2;
+            /*grid-column-start: c1;
+            grid-column-end: c4;*/
+            grid-column:c1/c4;
+        }
+        #sidebar{
+            background-color: cadetblue;
+            grid-row:f2/f3;
+            grid-column:c1/c2 ;
+        }
+        #main{
+            background-color: darkolivegreen;
+            grid-row:f2/f3;
+            grid-column:c2/c4 ;
+        }
+        #footer {
+            background-color: deepskyblue;
+            grid-row:f3/f4;
+            grid-column:c1/c4 ;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="header">cabecera</div>
+        <div id="sidebar">lateral</div>
+        <div id="main">principal</div>
+        <div id="footer">pie</div>
+    </div>
+</body>
+</html>

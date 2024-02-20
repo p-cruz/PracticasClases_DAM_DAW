@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post" name="miForm">
+        <label for="texto">Palabra</label>
+        <input type="text" id="palabra" name="palabra"><br>
+        <label for="veces">Número de veces</label>
+        <input type="number" id="veces" name="veces">
+    </form>
+    <p onclick="dibujaFilas3(document.getElementById('palabra').value, document.miForm.veces.value)">Haz clic para crear la tabla con las filas</p>
+    <table id="tabla"></table>
+    <script>
+        function dibujaFilas(p,n){
+            var tablaDibujada='<table>';
+            for(let i=1;i<=n;i++){
+                tablaDibujada+=`<tr><td>${p}</td></tr>`;
+            }
+            tablaDibujada+='</table>'
+            //console.log(tablaDibujada);
+            document.getElementById('tabla').innerHTML=tablaDibujada;
+        }
+        function dibujaFilas2(p,n){
+            var tablaDibujada=document.getElementById('tabla');
+            var filaDibujada, celdaDibujada;
+            for (let i=0; i<n; i++){
+                filaDibujada=tablaDibujada.insertRow(i);
+                celdaDibujada=filaDibujada.insertCell(0);
+                celdaDibujada.innerHTML=p
+            }
+        }
+        function dibujaFilas3(p,n){
+            var tablaDibujada=document.getElementById('tabla');
+            var filaDibujada, celdaDibujada, textoCeldaDibujada;
+            for (let i=0; i<n; i++){
+                filaDibujada=document.createElement('tr');
+                celdaDibujada=document.createElement('td');
+                textoCeldaDibujada=document.createTextNode(p);
+                celdaDibujada.appendChild(textoCeldaDibujada);
+                filaDibujada.appendChild(celdaDibujada)
+                tablaDibujada.appendChild(filaDibujada)
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="aqui"></div>
+    <script>
+        class Vehiculo{
+            constructor(mar,mod,mat){
+                this.marca=mar;
+                this.modelo=mod;
+                this.matricula=mat;
+            }
+            describe(){
+                return `El vehículo con marca ${this.marca}, modelo ${this.modelo} y matrícula ${this.matricula}`;
+            }
+        };
+        var vehiculo1=new Vehiculo('Audi','A3','1111-AAA');
+        console.log(vehiculo1);
+        console.log(vehiculo1.matricula);
+        console.log(vehiculo1.describe()); 
+        var texto=document.getElementById('aqui')
+        texto.innerHTML=`<h2>${vehiculo1.describe()}</h2>`; 
+        
+        class Coche extends Vehiculo{
+            constructor (mar,mod,mat,pue){
+                super(mar,mod,mat);
+                this.puertas=pue;
+            }
+            describeCoche(){
+                return `El coche y ${this.describe()} tiene ${this.puertas} puertas`;
+            }
+        }
+
+        var coche1= new Coche('Lexus','LFA','2222-BBB', 3);
+        texto.innerHTML+= `<h2>${coche1.describeCoche()}</h2>`;
+        console.log(coche1);
+        console.log(coche1.marca);
+        console.log(coche1.describe());
+    </script>
+</body>
+</html>

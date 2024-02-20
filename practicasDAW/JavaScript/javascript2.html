@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="numero1">Numero1</label>
+    <input type="number" name="numero1" id="numero1">
+    <br>
+    <label for="numero2">Numero1</label>
+    <input type="number" name="numero2" id="numero2">
+    <button onclick="muestraSuma(parseInt(numero1.value), parseInt(numero2.value))">Sumar</button>
+    <br>
+    <script>
+        function suma(a,b){
+            var resultado=a+b;
+            return resultado;
+        }
+    
+        function muestraSuma(n1,n2){
+            var resultado=suma(n1,n2);
+            document.body.insertAdjacentHTML('beforeend',`${n1} + ${n2} = ${resultado}<br>`);
+        }
+    </script>
+</body>
+</html>
