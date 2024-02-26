@@ -9,7 +9,7 @@
     <h1>PRUEBA DE AJAX</h1><br>
     <div id="aqui"></div>
     <script>
-        var peticion = new XMLHttpRequest();
+        /*var peticion = new XMLHttpRequest();
         peticion.onreadystatechange = function(){
             if (peticion.readyState == 4 && peticion.status == 200){
                 var datos = JSON.parse(peticion.responseText);
@@ -19,8 +19,22 @@
                 }
             }
         }
-        peticion.open("GET", "http://127.0.0.1:8080/practicasDAM/JSON/AJAX_1/fichero2.json", true);
+        peticion.open("GET", "http://127.0.0.1:8080/practicasDAM/4_JSON/AJAX_1/fichero2.json", true);
         peticion.send();
-    </script>
+        */
+        /*fetch("http://10.190.2.218:5500/practicasDAM/4_JSON/AJAX_1/fichero2.json")
+            .then(response => response.json())
+            .then(datos=>{
+                console.log(datos);
+                for (let i=0;i<datos.personas.length;i++){
+                    document.getElementById("aqui").innerHTML+=`<h2>Nombre: ${datos.personas[i].nombre}, nickname: ${datos.personas[i].nickname}</h2><hr>`;
+                }
+            })
+            .catch(error => console.log("Error: "+error))*/
+            
+            const response= fetch("http://10.190.2.218:5500/practicasDAM/4_JSON/AJAX_1/fichero2.json")
+            const data=response.json();
+            console.log(data);
+</script>
 </body>
 </html>
