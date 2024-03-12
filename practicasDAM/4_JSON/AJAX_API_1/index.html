@@ -6,22 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>PRUEBA DE AJAX</h1><br>
+    <h1>PRUEBA DE AJAX-API</h1><br>
     <div id="aqui"></div>
     <script>
-        /*var peticion = new XMLHttpRequest();
+        var peticion = new XMLHttpRequest();
         peticion.onreadystatechange = function(){
             if (peticion.readyState == 4 && peticion.status == 200){
                 var datos = JSON.parse(peticion.responseText);
-                console.log(datos);
-                for (let i=0;i<datos.personas.length;i++){
-                    document.getElementById("aqui").innerHTML+=`<h2>Nombre: ${datos.personas[i].nombre}, nickname: ${datos.personas[i].nickname}</h2><hr>`;
-                }
+                var datosRazas=Object.keys(datos.message);
+                console.log(datosRazas);
+                cargaRazas(datosRazas);
             }
         }
-        peticion.open("GET", "http://127.0.0.1:8080/practicasDAM/4_JSON/AJAX_1/fichero2.json", true);
+        peticion.open("GET", "https://dog.ceo/api/breeds/list/all", true);
         peticion.send();
-        */
+
+        function cargaRazas(razas){
+            
+        }
+        
         /*fetch("http://192.168.0.56:5500/practicasDAM/4_JSON/AJAX_1/fichero2.json")
             .then(response => response.json())
             .then(datos=>{
@@ -31,7 +34,7 @@
                 }
             })
             .catch(error => console.log("Error: "+error))*/
-        (async()=>{
+        /*(async()=>{
             const response=await fetch("http://192.168.0.56:5500/practicasDAM/4_JSON/AJAX_1/fichero2.json")
             const datos=await response.json();
             console.log(datos);
@@ -39,7 +42,7 @@
                     document.getElementById("aqui").innerHTML+=`<h2>Nombre: ${datos.personas[i].nombre}, nickname: ${datos.personas[i].nickname}</h2><hr>`;
                 }
         })()
-            
+            */
 </script>
 </body>
 </html>

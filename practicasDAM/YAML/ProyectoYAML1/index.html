@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+</head>
+<body>
+    <h1>LISTADO DE PRODUCTOS</h1>
+    <div id="productos"></div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 &xhr.status == 200) {
+                var productos = jsyaml.load(xhr.responseText);
+                console.log(productos);
+                 html = '<ul>';
+                for (var i = 0; i < productos.productos.length; i++) {
+                    html += '<li>' + productos.productos[i].nombre + ' - ' + productos.productos[i].precio + '€ - ' +productos.productos[i].descripcion + ' </li>';
+                }
+                html += '</ul>';
+                document.getElementById('productos').innerHTML = html;
+            }
+        };
+        xhr.open('GET', 'http://192.168.7.178:5500/practicasDAM/YAML/ProyectoYAML1/productos.yaml', true);
+        xhr.send();
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Clic para mostrar otra imagen</button>
+    <img id="imagen" src="">
+    <script>
+        var contador=7;
+        /*document.getElementById('btn').addEventListener('click', function(){
+            fetch(`http://10.190.7.0:5500/practicasDAM/4_JSON/AJAX_ServidorImagenes/imagenes/${contador}.png`)
+                .then((response) => response.blob())
+                .then((myBlob) => {
+                    const objectURL = URL.createObjectURL(myBlob);
+                    document.getElementById("imagen").src = objectURL;
+                    contador--;
+                });
+        });*/
+        document.getElementById('btn').addEventListener('click', function(){
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                const base64data = reader.result;
+                document.getElementById("imagen").src=base64data;
+            }
+            (async () => {
+                const response = await fetch(`http://10.190.7.0:5500/practicasDAM/4_JSON/AJAX_ServidorImagenes/imagenes/${contador}.png`)
+                const imageBlob = await response.blob()
+                reader.readAsDataURL(imageBlob); 
+                contador--;
+            })()
+
+        })
+    </script>
+</body>
+</html>
