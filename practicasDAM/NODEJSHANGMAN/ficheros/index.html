@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        #img{
+            max-width: 400px;
+            max-height: 400px;
+            margin: 0 auto;
+        }
+        #miForm{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HANGMAN GAME</h1>
+    <div id="container">
+        <img src="" alt="" id="img">
+        <p id="palabra"></p>
+    </div>
+    <form action="" id="miForm" name="miForm">
+        <label for="letra"></label>
+        <input type="text" name="letra" id="letra" maxlength="1"  placeholder="Introduzca una letra">
+        <button type="button" id="boton" onclick="validarFormulario()">Jugar</button>
+    </form>
+    <div class="container">
+        <p id="letras"></p>
+    </div>
+
+    <script>
+        var contador = 0;
+        function cargarImagen(contador) {
+            fetch(`http://localhost:3000/${contador}.png`)
+            .then((response) => response.blob())
+            .then((myBlob) => {
+                const objectURL = URL.createObjectURL(myBlob);
+                document.getElementById("img").src = objectURL;
+            });
+        }
+
+        var imagenes = 8;
+        (async()=>{
+            for (let i = imagenes - 1; i >= 0; i--) { 
+                setTimeout(async() => {await cargarImagen(i);},(imagenes - i - 1) * 500);
+            }
+        })()
+        fetch("http://localhost:3000/7.png")
+        .then((response) => response.blob())
+        .then((myBlob) => {
+             const objectURL = URL.createObjectURL(myBlob);
+            document.getElementById("img").src = objectURL
+            });
+
+        var palabra;
+        var solucion="";
+
+        function validarFormulario() {
+            debugger
+            var letraInput = document.getElementById("letra").value;
+            console.log(letraInput)
+            if (letraInput == "") {
+                alert("Por favor, introduce una letra.");
+            }else{
+                var letra=document.getElementById("letra").value;
+                var cont=0;
+                for(var i=0;i<palabra.length;i++){
+                if(palabra[i]==letra){
+                        cont++;
+                    }
+                }
+                if(cont>=1){
+                    mostrarPalabra(letra);
+                }else{                            
+                    fallo(letra);
+                }
+                console.log(letra);
+                console.log(palabra.length);
+                console.log(cont)
+                document.getElementById("miForm").reset();
+            }
+        }
+            (async () => {
+                const response = await fetch("http://localhost:3000/palabra");
+                const datos = await response.json();
+                var palabraPeticion = datos.palabra;
+                palabra=quitarTildes(palabraPeticion);
+                console.log(palabra)
+                for(var i=0;i<palabra.length;i++){
+                    solucion+="*" 
+                }
+                document.getElementById("palabra").innerText=solucion;    
+                
+                })();
+
+        function quitarTildes (palabra) {
+            if (palabra.includes('á')) {
+                var conTilde = "á";
+                var sinTilde = "a";
+
+                palabraSinTildes = palabra.replace(conTilde, sinTilde);
+                palabra = palabraSinTildes;
+            } else if (palabra.includes('í')) {
+                var conTilde = "í";
+                var sinTilde = "i";
+
+                var palabraSinTildes = palabra.replace(conTilde, sinTilde);
+                palabra = palabraSinTildes;
+            } else if (palabra.includes('ó')) {
+                var conTilde = "ó";
+                var sinTilde = "o";
+
+                palabraSinTildes = palabra.replace(conTilde, sinTilde);
+                palabra = palabraSinTildes;
+            } else if (palabra.includes('é')) {
+                var conTilde = "é";
+                var sinTilde = "e";
+
+                palabraSinTildes = palabra.replace(conTilde, sinTilde);
+                palabra = palabraSinTildes;
+            } else if (palabra.includes('ú')) {
+                var conTilde = "ú";
+                var sinTilde = "u";
+
+                palabraSinTildes = palabra.replace(conTilde, sinTilde);
+                palabra = palabraSinTildes;
+            }
+            return palabra.toLowerCase();
+        }
+       
+        
+
+
+        function mostrarPalabra(letra){
+            var salida ="";
+            for(var i=0;i<palabra.length;i++){
+                if(palabra[i]==letra){
+                    salida+=letra;
+                }else if(solucion[i]!="*"){
+                    salida+=solucion[i];
+                }else{
+                    salida+="*";
+                }  
+            }
+            
+            console.log(solucion)
+            solucion=salida;
+            document.getElementById("palabra").innerHTML=`${solucion}`;
+            document.miForm.letra.reset
+            cont=0;
+            for(var i=0; i<solucion.length;i++){
+                if(solucion[i]!="*"){
+                    cont++;
+                }
+            }
+            console.log(cont);
+            if(cont==palabra.length){
+                fetch("http://localhost:3000/win1.png")
+                .then((response) => response.blob())
+                .then((myBlob) => {
+                const objectURL = URL.createObjectURL(myBlob);
+                document.getElementById("img").src = objectURL
+            
+            });
+            }
+        }
+        var fallos=7;
+        function fallo(letra){
+            fetch(`http://localhost:3000/${fallos}.png`)
+            .then((response) => response.blob())
+            .then((myBlob) => {
+            const objectURL = URL.createObjectURL(myBlob);
+            document.getElementById("img").src = objectURL
+            fallos--;
+            console.log(fallos)
+            document.getElementById("letras").innerHTML+=`${letra}`
+            });
+            if(fallos==1){
+                fetch("http://localhost:3000/HangmanIcon.png")
+                .then((response) => response.blob())
+                .then((myBlob) => {
+                    const objectURL = URL.createObjectURL(myBlob);
+                    document.getElementById("img").src = objectURL
+                });
+                document.getElementById("palabra").innerHTML=`${palabra}  `
+                document.getElementById("boton").disabled = true;
+            }
+        }
+
+        
+    </script>
+</body>
+</html> 
