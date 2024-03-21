@@ -1,0 +1,24 @@
+{
+	"simbolo": "S",
+	"nombre": "AZUFRE",
+	"numeroAtomico": 16,
+	"numeroMasico": 32,
+	"grupo": 16,
+	"periodo": 3,
+	"propiedadesFisicas": [
+	"Radio atómico: 109 pm",
+		"Es un no metal de color amarillento fuerte, amarronado o verde anaranjado. Se encuentra en estado sólido. Su punto de fusión es 119ºC  y su punto de ebullición 444,6ºC. Su densidad es 2,07 g/cm³.",
+"El azufre es un aislante eléctrico en su forma elemental. Sin embargo, puede exhibir propiedades semiconductoras cuando se combina con otros elementos. El azufre es prácticamente insoluble en agua, pero puede disolverse en disolventes orgánicos. La densidad del azufre varía según su forma alotrópica."
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>4</sup>",
+	"Ión más probable: Formará mayoritariamente el anión -2, con el fin de cumplir la regla del octeto y alcanzar configuración de gas noble.",
+	"Carácter metálico: El azufre es un no metal. Aunque comparte algunas propiedades con los metales, como la capacidad para formar iones negativos (aniones), en general, el azufre y sus compuestos suelen exhibir propiedades no metálicas.",
+"Es insoluble en agua, pero se disuelve en disulfuro de carbono y benceno. Arde con llama de color azul desprendiendo dióxido de azufre.",
+"El azufre puede reaccionar con muchos elementos y compuestos, especialmente con metales. Puede formar compuestos sulfuros con muchos metales, como el sulfuro de hierro (FeS) o el sulfuro de zinc (ZnS)."
+	],
+	"aplicaciones": ["El azufre es empleado en la industria en distintos procesos de producción: vulcanizado de caucho, SO3, ácido sulfúrico y algunas de sus sales, caprolactama, producción de fertilizantes, pirotecnia, fabricación de pigmentos, alimentación animal, detergencia, etc."],
+	"descubrimiento": "Fue descubierto por Antoine Lavoisier quien a través de una serie de experimentos realizados en 1777 descubrió el azufre.",
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/16.jpg"
+}

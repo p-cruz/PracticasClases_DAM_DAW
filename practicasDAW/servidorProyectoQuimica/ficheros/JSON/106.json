@@ -1,0 +1,26 @@
+{
+    "simbolo": "Sg",
+    "nombre": "Seaborgio",
+    "numeroAtomico": 106,
+    "numeroMasico": 269,
+	"grupo": 6,
+	"periodo": 7,
+    "propiedadesFisicas": [
+	"Radio atómico: 200 pm",
+        "Es un elemento químico de aspecto desconocido, probablemente metálico plateado blanco o gris. Su estado habitual en la naturaleza es desconocido. Presenta elevada dureza, el tener puntos de ebullición y fusión elevados y ser buenos conductores de la electricidad y el calor. Su punto de fusión y ebullición son aún desconocidos. Su densidad no se conoce y su tiempo de vida media es de 21 segundos."
+    ],
+    "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup> 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>6</sup> 6s<sup>2</sup> 4f<sup>14</sup> 5d<sup>10</sup> 6p<sup>6</sup> 7s<sup>2</sup> 5f<sup>14</sup> 6d<sup>4</sup>",
+	"Ión más probable: El de carga +2, +6",
+	"Carácter metálico: Al ser un metal, es bastante alto.",
+        "Muchas de sus propiedades aún no se conocen y son un misterio por revelar. Muchos afirman que el Seaborgio es un elemento totalmente inútil para el ser humano, pero a pesar de que no se ha podido demostrar nada en los laboratorios, se estima que en el universo y en otros planetas, tenga un uso importante."
+    ],
+    "aplicaciones": [
+        "Se desconoce su utilidad y las pocas cantidades producidas son utilizadas para realizar estudios científicos. Es un metal inestable, que se descompone en otros elementos rápidamente, por lo que no se ha considerado el estudio sobre sus efectos en la salud humana."
+    ],
+    "descubrimiento": [
+        "El descubrimiento de este elemento llamado Seaborgio fue descubierto en el año 1974 prácticamente al mismo tiempo por dos respetados laboratorios. En junio del año 1974 el laboratorio de ciencia norteamericano de la Universidad de California bajo el mando del científico Albert Ghiorso, llevaron a cabo la primera creación del isótopo de este elemento con una masa equivalente a 263. Posteriormente en este mismo año, pero en el mes de septiembre, se evidenció la creación de un isótopo de este mismo elemento: el Seaborgio, pero con una masa de 259, en el ICIN (Instituto Conjunto para la Investigación Nuclear) de la antigua república de la URSS. Se determinó entonces que los primeros creadores del Seaborgio fueron los estadounidenses, por lo que se les permitió darle un nombre. Así se les concedió el nombre de Seaborgio, en representación al afamado químico Glenn Seaborg que fue uno de los principales participantes dentro del equipo de investigación liderado por Albert. Sus aportes fueron claves para su descubrimiento."
+    ],
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/106.jpg"
+}

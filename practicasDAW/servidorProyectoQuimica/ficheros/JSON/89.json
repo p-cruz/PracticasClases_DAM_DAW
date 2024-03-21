@@ -1,0 +1,29 @@
+{
+    "simbolo": "Ac",
+    "nombre": "Actinio",
+    "numeroAtomico": 89,
+    "numeroMasico": 227,
+	"grupo": 3,
+	"periodo": 7,
+    "propiedadesFisicas": [                              
+              "Tiene un tono plateado",
+            "Punto de ebullición es 1050º C.",
+            "Punto de ebullición es 3198º C.",
+            "Tiene una vida media de 21,772 años.",
+            "Brilla en la oscuridad con una luz azul.",
+	"Posee alta conductividad térmica y eléctrica"
+                        ],
+"propiedadesQuimicas": [
+"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup> 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup> 6p<sup>6</sup> 6d<sup>1</sup> 7s<sup>2</sup>",
+"Iones más probables: Cationes de carga +3 y +4",
+"Carácter metálico: Pertenece a los actínidos, metales de tierras raras.",
+            "Es radiactivo, tiene 36 isótopos y ninguno es estable."
+                        ],
+    "aplicaciones": [
+                        "No hay aplicaciones comerciales para el francio debido a su escasez y a su inestabilidad.",
+                        "Sólo ha sido usado en tareas de investigación."
+                    ],
+    "descubrimiento":"André-Louis Debierne en 1899",
+    "fotoEF": "rutaFotosEF/fichero.jpg", 
+    "fotoDescubridor": "rutaFotosDescubridores/89.jpg"
+}

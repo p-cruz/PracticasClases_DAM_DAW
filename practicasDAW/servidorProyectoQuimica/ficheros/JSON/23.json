@@ -1,0 +1,28 @@
+{
+	"simbolo": "V",
+	"nombre": "Vanadio",
+	"numeroAtomico": 23,
+	"numeroMasico": 50.9415,
+	"grupo": 5,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 192 pm",
+		"Su punto de fusión es de 1950 ºC y su punto de ebullición 3600 ºC.",
+		"El vanadio tiene una densidad de 6,11 g/ml.",
+		"Entre las propiedades del vanadio destacan la fuerza y dureza que se consigue en aplicaciones mecánicas. En el acero genera buena resistencia a la fatiga y a los impactos, tracción y poder cortante para elaborar herramientas"
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: [Ar] 4s<sup>2</sup> 3d<sup>3</sup>",
+	"Iones más probables: Tendrá tendencia a formar los cationes de carga +2 y +5",
+	"Carácter metálico: 1.Conductividad eléctrica: El vanadio es un buen conductor de electricidad. Los metales, en general, tienen electrones móviles que pueden moverse a través del material, permitiendo la conducción eléctrica. 2.Conductividad térmica: Los metales, incluido el vanadio, son buenos conductores de calor. Esto se debe a la capacidad de los electrones para transportar energía térmica a través del material. 3.Brillo metálico: El vanadio tiene un brillo metálico característico cuando se encuentra en estado puro. Los metales tienden a ser reflectantes y brillantes. 4.Maleabilidad y ductilidad: El vanadio es maleable y ductil, lo que significa que puede deformarse sin romperse y formar láminas delgadas o hilos delgados. 5.Punto de fusión elevado: Los metales, incluido el vanadio, tienden a tener puntos de fusión relativamente altos en comparación con los no metales.",
+	"El vanadio es un metal de color grisáceo. Es un metal dúctil, pero duro, poco abundante",
+	"Se encuentra en distintos minerales y se emplea principalmente en algunas aleaciones"
+	],
+	"aplicaciones": [
+		"El vanadio se usa en la producción de resortes y herramientas de acero de alta velocidad resistentes a la corrosión.",
+		"Es un estabilizador importante en la producción de acero. El pentóxido de vanadio se usa en cerámicas, como catalizador y también en la producción de imanes superconductores."
+	],
+	"descubrimiento": "El vanadio es un elemento químico con una historia peculiar y tan fascinante como su química. Fue descubierto en el municipio argentífero de Zimapán, México, por Andrés Manuel Del Río, y redescubierto en Suecia por Nils Gabriel Sefström, quien lo nombró vanadio, en honor de la diosa nórdica Vanadis.",
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/23.jpg"
+}

@@ -1,0 +1,23 @@
+{
+    "simbolo": "Sm",
+     "nombre": "SAMARIO",
+     "numeroAtomico": 62,
+     "numeroMasico": 150,
+	"grupo": "Tierras raras (Lantánidos)",
+	"periodo": 6,
+     "propiedadesFisicas": [
+	"Radio atómico: 166 pm",
+"Es un sólido de color blanco plateado que no posee olor ni saber específico.posee un brillo metálico,-plateado y brillante. Su punto de fusión es 1072 ºC y su punto de ebullición es 1803 ºC, su densidad es 70353kg/m³."
+               
+               ],
+   "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup> 4f<sup>6</sup> 5d<sup>10</sup> 6s<sup>2</sup>",
+	"Ión más probable: Forma el catión de carga +3",
+	"Carácter metálico: Exhibe propiedades metálicas. Sin embargo, algunas propiedades, como la tendencia a formar óxidos, pueden ser diferentes de otros metales más comunes.", 
+"Es fácilmente soluble en ácidos, se activa de manera rápida al estar unido con el agua a altas temperaturas, también es un metal reactivo, especialmente cuando se expone al aire. Puede formar una pátina de óxido en su superficie. El samario es notable por sus propiedades magnéticas. Tiene la capacidad de exhibir propiedades magnéticas tanto en estado puro como en compuestos. Puede mostrar comportamientos magnéticos complejos dependiendo de las condiciones."
+               ],
+   "aplicaciones": "Se utiliza entre otras cosas como catalizador en procesos que  conllevan transformaciones orgánicas, en la fabricación de lámparas incandescentes y de arco voltáico de Carbono, conjugándolo con el cobalto produce un imán mucho más potente y resistente que cualquier otro, es manejado en pacientes con cáncer, en el desarrollo de electrodomésticos.",
+     "descubrimiento": "Su origen se remonta al año 1853 cuando el investigador químico suizo Jean Charles Galissard de Marignac hizo su descubrimiento, sin embargo, fue en 1879 cuando el científico francés Paul Emile Lecoq de Boisbaudran logra separarlo del mineral Samarskita.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+     "fotoDescubridor": "rutaFotosDescubridores/62.jpg"
+}

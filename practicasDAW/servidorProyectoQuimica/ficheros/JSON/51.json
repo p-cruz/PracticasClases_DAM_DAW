@@ -1,0 +1,28 @@
+{
+    "simbolo": "Sb",
+    "nombre": "Antimonio",
+    "numeroAtomico": 51,
+    "numeroMasico": 121.760,
+	"grupo": 15,
+	"periodo": 5,
+    "propiedadesFisicas": [
+	"Radio atómico: 133 pm",
+                        "El antimonio en su forma elemental es un sólido cristalino, fundible, quebradizo, blanco plateado que presenta una conductividad eléctrica y térmica baja y se evapora a bajas temperaturas.",
+            "Este elemento semimetálico se parece a los metales en su aspecto y propiedades físicas, pero se comporta químicamente como un no metal."
+                        ],
+    "propiedadesQuimicas": [
+	"Configuración electrónica: [Kr] 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>3</sup>",
+	"Ión más probable: Forma el anión -3",
+	"Carácter metálico: El antimonio metálico es muy quebradizo, de color blanco-azuloso con un brillo metálico característico, de apariencia escamosa. Aunque a temperaturas normales es estable al aire, cuando se calienta se quema en forma luminosa desprendiendo humos blancos.",
+                        "Debido a que se considera como un metaloide tiene características tanto de metales como de no metales.",
+            "El antimonio se considera como un elemento moderadamente activo, por lo tanto no se combina químicamente con el oxígeno a condiciones ambientales o normales.",
+            " Tampoco reacciona fácilmente con el agua helada ni con con los ácidos fríos."
+                        ],
+    "aplicaciones": [
+            " Compuestos de antimonio en forma de óxidos, sulfuros, antimoniatos y halogenuros de antimonio se emplean en la fabricación de materiales resistentes al fuego, esmaltes, vidrios, pinturas y cerámicas.!",
+            "El trióxido de antimonio es el más importante y se usa principalmente como retardante de llama."
+            ],
+    "descubrimiento":"El alquimista Basil Valentine (1565-1624), presentado a veces como el descubridor del antimonio, fue el primero en describir la extracción de antimonio de sus compuestos en su tratado “Triumph Wagens des Antimonij”.",
+ "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/51.jpg"
+}

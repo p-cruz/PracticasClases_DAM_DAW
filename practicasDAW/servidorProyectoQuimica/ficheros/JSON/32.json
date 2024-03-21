@@ -1,0 +1,20 @@
+{
+	"simbolo": "Ge",
+	"nombre": "GERMANIO",
+	"numeroAtomico": 32,
+	"numeroMasico": 73,
+	"grupo": 14,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 211 pm",
+"Elemento químico metálico, color plata y quebradizo.Su punto de fusión es 937, 4 ºC y su punto de ebullición es 2830 ºC.Su densidad es 5, 32 g / ml"],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>2</sup>",
+	"Iones más probables: Tiene tendencia a formar los iones de carga +2 y -4",
+	"Carácter metálico: Tiene comportamiento de semimetal o metaloide",
+"Estable en el agua y en el aire y solo le afecta el ácido nítrico. Tiene propiedades intermedias entre los metales y no metales. En cuanto a su conductividad eléctrica es semiconductor. Su densidad es de 5,32g/ml."],
+	"aplicaciones": "Su principal aplicación está en la industria de la fibra óptica, dispositivos ópticos de infrarrojos y en la fabricación de paneles solares.",
+	"descubrimiento": "Fue descubierto por Clemens Alexander Winkler en 1886. Aisló el elemento de un mineral llamado argirodita, encontrado en una mina cerca de su ciudad natal de Friburgo en Sajonia.",
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/32.jpg"
+}

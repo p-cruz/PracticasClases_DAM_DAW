@@ -1,0 +1,38 @@
+{
+     "simbolo":"Te",
+     "nombre": "Teluro",
+     "numeroAtomico": 52,
+     "numeroMasico": 128, 
+	"grupo": 16,
+	"periodo": 5,
+     "propiedadesFisicas": [
+	"Radio atómico: 140 pm",
+     "El estado del telurio en su forma natural es sólido (no-magnético). El telurio es un elemento químico de aspecto gris plateado y pertenece al grupo de los metaloides. Esta sustancia irrita los ojos y el tracto respiratorio. Cuando se calienta se forman vapores tóxicos", 
+                         "Su punto de fusión es 449,5oC y su punto de ebullición es 988oC",
+                        ",Su densidad es 6,24 g/ml.",
+"Entalpía de fusión: 17,49 kJ/mol",
+"Primer potencial de ionización eV: 869,3 kJ/mol",
+"Conductividad térmica: 2,35 W/(K·m)",
+"Conductividad eléctrica: 200 m-1·Ω-1"
+                            ],
+            "propiedadesQuimicas": [
+"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>4</sup>",
+"Ión más probable: El de carga -2, para conseguir la configuración de gas noble",
+"Carácter metálico: Semimetal",
+"Óxido: Levemente acido.",
+"Isótopos: 30 isótopos con masas atómicas que fluctúan entre 108 y 137",
+"Electronegatividad ( Escala de Pauling) de 2,1",
+"Afinidad electrónica de 190,161 kJ/mol",
+"Se encuentra nativo o formando sales. El telurio se quema en aire despidiendo una flama azul y forma dióxido de telurio TeO2. Reacciona con los halógenos, pero no con azufre o selenio, y forma, entre otros productos, tanto el anión telururo dinegativo (Te2-), que se asemeja al selenuro, como el catión tetrapositivo (Te4+), que se parece al platino (IV)."                
+     ],
+     "aplicaciones": [
+                         "Agente vulcanizador en el procesamiento del caucho sintético y natural. Se usa también para dar color azul al vidrio. El teluro coloidal se usa como insecticida, germicida y fungicida.",
+"Se utiliza en la fabricación de células solares que son eficientes y económicas de producir, lo que las hace atractivas para la generación de energía solar a gran escala.",
+"Se usa como aditivo en aleaciones metálicas, como el acero inoxidable y las aleaciones de plomo mejorando sus propiedades mecánicas, como su resistencia a la corrosión, la capacidad de soldadura y la resistencia a la fatiga.",
+"Se usa en la fabricación de dispositivos electrónicos, como rectificadores, que se encargan de convertir corriente alterna en corriente continua. ",
+"El telurio es un material semiconductor y se utiliza en la fabricación de dispositivos electrónicos, como transistores y diodos. Sus propiedades semiconductores permiten controlar y modular el flujo de corriente eléctrica en estos dispositivos."
+			]   ,
+     "descubrimiento":"Fue descubierto en 1782 por el científico húngaro Franz-Joseph Müller von Reichenstein. En 1783, Franz Joseph Muller von Reichenstein descubrió el telurio en minerales de oro de una mina de Transilvania (Rumanía). Inicialmente pensó que se trataba de antimonio y, más tarde, de un sulfuro de bismuto. Convencido de que era un nuevo elemento lo llamó “oro problemático. En 1789, otro científico húngaro, Pál Kitaibel, descubrió también elemento en forma independiente pero posteriormente acreditó el descubrimiento a Müller. El elemento fue nombrado en 1798 por Martin Heinrich Klaproth quien anteriormente había conseguido aislarlo.",
+             "fotoEF": "rutaFotosEF/fichero.jpg",
+     "fotoDescubridor": "rutaFotosDescubridores/52.jpg"
+     }

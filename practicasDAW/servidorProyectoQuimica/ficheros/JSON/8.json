@@ -1,0 +1,33 @@
+{
+    "simbolo":"O",
+    "nombre": "OXIGENO",
+    "numeroAtomico": 8,
+    "numeroMasico": 16,
+	"grupo": 16,
+	"periodo": 2, 
+    "propiedadesFisicas": [
+	"Radio atómico: 60 pm",
+    "En condiciones normales el oxígeno es un gas incoloro, inodoro e insípido. Al condensarse se torna en un líquido de tono azul claro.", 
+                    "Su punto de fusión es -218ºC y Su punto de ebullición  -183ºC",
+                    "Todos los isótopos del oxígeno son estables.",
+                    "El oxígeno tiene 3 isótopos, los cuales son el O-16, O-17 y el O-18"
+                       ],
+       "propiedadesQuimicas": [
+		"Su configuración electrónica es: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup>.",
+                    "El oxígeno tiene un estado de oxidación -2 y una valencia de 2.",
+		"Se considera un no metal típico",
+                    "El oxígeno posee una electronegatividad muy alta. De hecho, solo después del flúor es el elemento más electronegativo que existe, por lo que puede combinarse con cualquier elemento menos con los gases nobles para formar todo  tipo de tipos de moléculas.",
+                 "El oxígeno es soluble en agua. Por ser muy reactivo, el oxígeno forma óxidos y corroe las superficies.",
+                    "Es una sustancia sumamente reactiva, capaz de formar compuestos con casi todos los elementos conocidos."
+     ],
+    "aplicaciones": [
+                 "Además de para respirar y para la combustión y oxidación, también sirve para la respiración asistida de los pacientes en ámbitos de la medicina.",
+    
+                 "Para las industrias, la fabricación de hierro y acero necesita mucho oxígeno, y para soldaduras a muy altas temperaturas. También para la fabricación de explosivos"
+     ],
+    "descubrimiento":
+                   "Según las enciclopedias y las bases de datos, el descubridor del oxígeno como elemento fue Joseph Priestley. Sin embargo, el auténtico descubridor del oxígeno fue el químico sueco Carl Wilhelm Scheele. Lo aisló en 1771 y 1772 calentando distintas sustancias que le dejaban en libertad con facilidad, entre ellas el óxido de mercurio, llamándolo «aire del fuego».",
+        "fotoEF": "rutaFotosEF/fichero.jpg",
+     "fotoDescubridor": "rutaFotosDescubridores/8.jfif"
+     }
+    

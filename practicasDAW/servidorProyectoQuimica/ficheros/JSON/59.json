@@ -1,0 +1,28 @@
+{
+    "simbolo": "Pr",
+    "nombre": "Praseodimio",
+    "numeroAtomico": 59,
+    "numeroMasico": 140.9,
+	"grupo": "Tierras raras (Lantánidos)",
+	"periodo": 6,
+    "propiedadesFisicas": [
+	"Radio atómico: 247 pm",
+                        "Plateado con superficie lisa.", 
+            "Punto de fusión de 931 C º.", 
+            "Punto de ebullición de 3520 ºC.", 
+            "Se encuentra en estado sólido con forma hexagonal.",
+            "Su tiempo de vida son trece días."
+                        ],
+"propiedadesQuimicas": [
+	"Configuración electrónica: [Xe] 4f<sup>3</sup> 6s<sup>2</sup>",
+	"Ión más probable: Formará el catión +2",
+	"Carácter metálico:El praseodimio es un elemento metálico plateado suave, y pertenece al grupo de los lantánidos. Es algo más resistente a la corrosión en aire que el europio, el lantano, el cerio, o el neodimio, pero desarrolla una capa verde de óxido cuando se rompe o cuando está expuesto al aire, exponiendo más metal a la oxidación.",
+                        "Pertenece a los lantánidos.", 
+            "Tiene gran magnetismo y conductividad.", 
+            "Demasiado reactivo como para encontrarlo en la naturaleza "
+                        ],
+    "aplicaciones": "En imanes de alta densidad para motores automovilísticos y turbinas eólicas, también se usa para baterías recargables y otros aparatos electrónicos.",
+    "descubrimiento":"Descubierto por el Carl Auer von Welsbach en 1885",
+ "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/59.jpg"
+}

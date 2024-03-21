@@ -1,0 +1,38 @@
+{
+    "simbolo": "Tb",
+    "nombre": "Terbio",
+    "numeroAtomico": 65,
+    "numeroMasico": 93,
+	"grupo": "Tierras raras (Lantánidos)",
+	"periodo": 6,
+    "propiedadesFisicas": [
+	"Radio atómico: 237 pm",
+            "Punto de fusión de 1360 C º.", 
+            "Punto de ebullición de 3041 ºC.",
+	"Entalpía de fusión: 10,8 kJ/mol",
+	"Entalpía de vaporización: 330,9 kJ/mol",
+            "sólido metálico de color blanco y brillo plateado. "
+                        ],
+"propiedadesQuimicas": [
+		"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup> 4f<sup>9</sup> 5d<sup>10</sup> 6s<sup>2</sup>",
+        "Ión más probable: +3",
+		"Carácter metálico: Lantánido de alto carácter metálico",
+            "Óxido: Levemente básico.",
+            "Calor específico: 10.8 kJ/mol",
+            "Primer potencial de ionización eV: 6.76 kJ/mol",
+            "Conductividad térmica:  11,1 W/(K·m)",
+            "Conductividad eléctrica: 0,889 × 106S/m",
+            "Radio covalente: 1,59 pm",
+"Óxido: Levemente básico.",
+"Los isótopos 157-Tb y 160-Tb tienen una vida media alrededor de los 70 años. Los restantes radioisótopos tienen vidas medias de menos de 7 días, muchos de ellos de menos de 24 segundos.",
+"Electronegatividad ( Escala de Pauling) de 1,1",
+"Afinidad electrónica de 112,4 kJ/mol"
+                        ],
+    "aplicaciones": [
+"El terbio se usa para adulterar algunos tipos de aparatos en estado sólido y, junto con el dióxido de zirconio (ZrO2), como un estabilizador de los cristales en las celdas de fuel que trabajan a altas temperaturas.",
+"También se utiliza junto con el neodimio y disprosio en la industria automovilística de coches híbridos, las cuales , requieren soportar altas temperaturas; al formar una aleación con el hierro,  se usa como película metálica en el registro magnetoóptico de datos, también es usado en combinación con otros materiales en fibras ópticas; en la industria naval, se encuentra en sistemas sonar navales y por último, su luminiscencia se usa en pantallas a color de TV y otros dispositivos móviles y portátiles."
+	],
+    "descubrimiento":"El terbio fue descubierto en 1843 por el químico sueco Carl Gustaf Mosander, que lo detectó como impureza en óxido de itrio. Su nombre se debe a la localidad sueca Ytterby situado en la isla de Resarö, famoso por su mina donde fue descubierto junto a otros elementos químicos. No obstante, no pudo ser aislado hasta 1905 por el químico francés Georges Urbain gracias a las técnicas de intercambio de iones que permiten separar los iones lantanoides.",
+ "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/65.jpg"
+}

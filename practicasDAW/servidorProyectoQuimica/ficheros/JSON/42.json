@@ -1,0 +1,19 @@
+{            
+    "simbolo": "Mo",            
+    "nombre": "MOLIBDENO",            
+    "numeroAtomico": 42,
+	"grupo": 6,
+	"periodo": 5,            
+    "numeroMasico":96,             
+    "propiedadesFisicas": [
+	"Radio atómico: 190 pm",
+"Metal muy puro de color blanco plateado, resistente a la corrosión y usado en aleaciones. En la naturaleza se encuentra en estado sólido."], 					  								
+    "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>5</sup> 5s<sup>1</sup>",
+	"Iones más probables: No se ha observado como catión ionizable, pero se conocen especies catiónicas como el molibdenilo.",
+	"Carácter metálico: El molibdeno es un metal de transición. Este metal puro es de color blanco plateado y muy duro; además, tiene uno de los puntos de fusión más altos de entre todos los elementos. En pequeñas cantidades, se emplea en distintas aleaciones de acero para endurecerlo o hacerlo más resistente a la corrosión.",
+"Presenta varios estados de oxidación, no reacciona con oxígeno ni agua a temperatura ambiente. Muestra poca solubilidad en agua y es resistente a la corrosión."],					   					            
+    "aplicaciones": ["Es común su aplicación al fabricar cables eléctricos, gracias a su alta resistencia, su perfecta conductividad y sus propiedades mecánicas. Una de sus principales aplicaciones son sus aleaciones, presenta aplicaciones en construcción civil, fabricación de pinturas o piezas de motores."],            
+    "descubrimiento":" Fue descubierto por Carl Wilhelm en 1778 de manera impura.",              
+    "fotoEF": "rutaFotosEF/fichero.jpg",            "fotoDescubridor": "rutaFotosDescubridores/42.jpg"        
+}

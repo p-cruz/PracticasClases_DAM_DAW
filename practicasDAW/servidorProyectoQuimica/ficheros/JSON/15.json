@@ -1,0 +1,32 @@
+{
+    "simbolo": "P",
+      "nombre": "Fósforo",
+      "numeroAtomico": 15,
+      "numeroMasico": 30.97380,
+	"grupo": 15,
+	"periodo": 3,
+      "propiedadesFisicas": [
+	"Radio atómico: 195 pm",
+                        "Punto de fusión: 44,1 ºC.",
+                    "Punto de ebullición: 280,5 ºC",
+                    "Densidad: 1,82 (g/ml)."
+                  ],                
+  "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>3</sup>",
+	"Ión más probable: Debido a su cercanía la grupo de los gases nobles, formará el anión -3 con suma facilidad",
+	"Carácter metálico: Es un no metal típico.",
+                        "No metálico.",
+              "Ácido débil diprótico.",
+              "Sí ligeramente radiactivo."
+              ],                             
+      "aplicaciones": [
+              "Nutriente en alimentos.",
+              "Agente de limpieza para ablandar el agua o en revestimientos para superficies metálicas.",
+              "Formación de huesos y dientes.",
+              "Afecta a cómo el cuerpo usa los carbohidratos y las grasas.",
+              "También es necesario para que el cuerpo produzca proteínas para el crecimiento, conservación y reparación de células y tejidos."
+              ],
+      "descubrimiento": "Por el alemán Henning Brandt, 1669.",
+   "fotoEF": "rutaFotosEF/fichero.jpg",
+      "fotoDescubridor": "rutaFotosDescubridores/15.jpg"
+  }

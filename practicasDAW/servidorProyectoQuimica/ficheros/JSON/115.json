@@ -1,0 +1,23 @@
+{
+    "simbolo": "Mc",
+       "nombre": "Moscovio",
+       "numeroAtomico": 115,
+       "numeroMasico": 290,
+	"grupo": 15,
+	"periodo": 7,
+       "propiedadesFisicas": [
+			"Radio atómico: 162 pm (estimado)",
+                           "Es presuntamente sólido a 298 K.",
+                           "Es un elemento sintético de apariencia grisáceo con destellos de plateado y blanco."
+                             ],                                
+    "propiedadesQuimicas":  [
+			"Configuración electrónica: 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p6 4f14 5d10 6s2 6p6 5f14 6d10 7s2 7p3",
+			"Ión más probable: De carga +2",
+                           "Es un metal.",
+                           "Tiene  4 isótopos, del 287 al 290, donde el 289 es el más estable con 184 neutrones, que vive pocos segundos."
+                           ],                                
+       "aplicaciones": "Se usa para investigación.", 
+       "descubrimiento": "Se descubrió en 2003.",
+       "fotoEF": "rutaFotosEF/fichero.jpg",
+       "fotoDescubridor": "rutaFotosDescubridores/115.jpg"
+}

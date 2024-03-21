@@ -1,0 +1,32 @@
+{
+        "simbolo":"Er",
+        "nombre": "ERBIO",
+        "numeroAtomico": 68,
+        "numeroMasico": 167,
+	"grupo": "Tierras raras (Lantánidos)",
+	"periodo": 6, 
+        "propiedadesFisicas": [
+	"Radio atómico: 189 pm",
+            "Es un elemento trivalente y maleable.  Sus sales son rosadas y el elemento origina un característico espectro de absorción en el espectro visible, ultravioleta y cerca del infrarrojo.", 
+                         "Su punto de fusión es 11497ºC y su punto de ebullición es 2900ºC",
+                         "Su densidad es 9,05 g/mL",
+                         "Su tiempo de vida media: Todos los isótopos del erbio son estables.",
+                         "El erbio tiene 6 isótopos, los cuales son el Er162, Er164, Er166, Er167, Er168 y Er170"
+                            ],
+            "propiedadesQuimicas": [
+	"Configuración electrónica: [Xe] 6s<sup>2</sup> 4f<sup>12</sup>",
+	"Ión más probable: Es el catión de carga +3",
+	"Carácter metálico: Es un metal de color plateado perteneciente a los lantánidos y se encuentra en la mayoría de los minerales que contienen tierras raras. El metal puro de erbio es maleable, suave pero estable en el aire, y no se oxida tan rápido como algunos otros metales de tierras raras.",
+        "Sus sales son de color rosa, y el elemento tiene bandas de espectros de absorción aguda característicos en luz visible, ultravioleta e infrarrojo cercano.",
+                         "El erbio es relativamente estable en el aire y no se oxida tan rápidamente como otros metales de las tierras raras.",
+                         "Su óxido es la erbia.",
+                         "El erbio tiene un estado de oxidación +3 y una valencia de 3.",
+                         "El erbio también contiene una ratio de electronegatividad de 1,2, un radio atómico de 1,75, un radio covalente de 1,57 y un radio iónico de 0,96."
+            ],
+        "aplicaciones": [
+                        "Los átomos de erbio se utilizan también como dopantes en las fibras ópticas, actuando como amplificadores de la luz cada 50 kilómetros de cable en los suelos oceánicos. Esto permite que la señal pueda surcar enormes distancias, gracias a lo cual es posible, por ejemplo, reproducir vídeos de YouTube de distintas partes del mundo. También se usa en radiación y en joyería."
+            ],
+        "descubrimiento":"El erbio fue descubierto en 1843 por el químico sueco Carl Gustaf Mosander, quien estudiaba muestras del mineral gadolinita, recolectadas en las canteras de Ytterby, una villa ubicada en Suecia.",
+             "fotoEF": "rutaFotosEF/fichero.jpg",
+        "fotoDescubridor": "rutaFotosDescubridores/68.jpg"
+}

@@ -1,0 +1,25 @@
+{
+    "simbolo": "Ts",
+       "nombre": "Teneso",
+       "numeroAtomico": 117,
+       "numeroMasico": 294,
+	"grupo": 17,
+	"periodo": 7,
+       "propiedadesFisicas": [
+			"Radio atómico: según cálculos teóricos debe ser de 165 ppm",
+                              "Punto de fusion: 300 °C.",
+                              "Punto de ebullicion:550 °C.",
+                              "Estado de agregación normal: sólido."
+                             ],                                
+    "propiedadesQuimicas":   [
+			"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup> 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>6</sup> 6s<sup>2</sup> 4f<sup>14</sup> 5d<sup>10</sup> 6p<sup>6</sup> 7s<sup>2</sup> 5f<sup>14</sup> 6d<sup>10</sup> 7p<sup>5</sup>",
+		"Ión más probable: Se espera que sea de carga -1",
+		"Carácter metálico: Es un semimetal.",
+                              "Tiempo de vida media: 53 ms.",
+                              "Es radioactivo."
+                             ],                                
+       "aplicaciones": "En vista de su reciente descubrimiento es pronto para conocer sus aplicaciones, por lo que no se emplea en la industria comercial, médica, metalúrgica o química. También, porque su producción es difícil y escasa. Con todo, los usos del Teneso se restringen a fines investigativos de tipo científico.", 
+       "descubrimiento": "El descubrimiento del Teneso resulta algo controversial, pues ocurrió mediante la colaboración de dos grupos científicos, los estadounidenses y los rusos. A principios del año 2010 el Instituto Conjunto de Investigación Nuclear de Dubná, Rusia y el Laboratorio Nacional Oak Ridge de Tennessee, Estados Unidos, emitieron un comunicado que daba a conocer el hallazgo a la opinión pública. Por otro lado, el Teneso se obtiene por fusión nuclear del isótopo 249Bk con iones de 48Ca.",
+       "fotoEF": "rutaFotosEF/fichero.jpg",
+       "fotoDescubridor": "rutaFotosDescubridores/117.jpg"
+}

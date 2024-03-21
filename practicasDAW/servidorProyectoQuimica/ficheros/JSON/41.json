@@ -1,0 +1,39 @@
+{
+    "simbolo": "Nb",
+    "nombre": "Niobio",
+    "numeroAtomico": 41,
+    "numeroMasico": 92.90638,
+	"grupo": 16,
+	"periodo": 5,
+    "propiedadesFisicas": [
+		"Radio atómico: 207 ppm",
+                        "Densidad: 8,57 g/cm<sup>3</sup>",
+"Punto de fusión: 2476,85 ºC.",
+"Punto de ebullición de 4743,85 °C",
+"Entalpía de fusión: 26,4 kJ/mol",
+"Primer potencial de ionización eV: 652,1 kJ/mol",
+"Conductividad térmica: 53,7 W/(K·m)",
+"Conductividad eléctrica: 6,93 106 m-1·Ω-1"
+                        ],
+    "propiedadesQuimicas": [
+    "Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>4</sup> 5s<sup>1</sup>",
+	"Ión más probable: De carga -2",
+	"Carácter metálico: Presenta bastante carácter metálico",
+"Óxido: levemente ácido",
+"Isótopos: los 5 isótopos con masas atómicas que fluctúan entre 91 y 94",
+"Electronegatividad ( Escala de Pauling) de 1,6",
+"Afinidad electrónica de 88,516 kJ/mol",
+                        "Es un metal de transición dúctil, gris, blando y poco abundante",
+                        "Presenta radioactividad"
+                        ],
+    "aplicaciones": [
+                        "Se usa para aleaciones de alta temperatura y superconductoras",
+                        "Se usa en la fabricacion de pilas nucleares",
+"Se utiliza ampliamente en aleaciones metálicas para mejorar la resistencia y la durabilidad de otros metales, como el acero inoxidable, el níquel y el cobalto. Estas aleaciones se usan en la fabricación de componentes para la industria aeroespacial, automotriz y de construcción.",
+"Se emplea en la fabricación de cables e imanes superconductores que requieren campos magnéticos fuertes, como resonancia magnética (IRM), aceleradores de partículas y reactores de fusión nuclear.",
+"Se emplea en la fabricación de condensadores electrolíticos de tantalio-niobio, que son componentes esenciales en la electrónica y la tecnología de la información."
+                    ],
+    "descubrimiento": "En el año 1734, John Winthrop encontró un extraño mineral en Massachusetts, EE.UU., y lo envió a Inglaterra. En 1801, fue analizado por el químico inglés Charles Hatchett. Tras analizar el mineral, Hatchett encontró en él un nuevo elemento y lo llamó columbio en honor a Columbia. En el año 1809, el físico químico inglés William Hyde Wollaston lo comparó con varios otros elementos y declaró que en realidad se trataba del tantalio.En 1844, el minerólogo y químico alemán Heinrich Rose, trabajando con muestras de ambos minerales (columbita y tantalita), logró separar estos elementos en formas ácidas, a las cuales llamó ácido nióbico y ácido pelópico, cambiando el nombre del elemento a niobio. Veinte años más tarde, el químico suizo Jean Charles de Marignac Galissard logró aislar niobio metálico calentando cloruro en una atmósfera de hidrógeno.El elemento terminó conociéndose como columbio durante más de 100 años en Estados Unidos y niobio en Europa. En 1949, el elemento fue oficialmente llamado niobio.",
+    "fotoEF": "rutaFotosEF/fichero.jpg" ,
+    "fotoDescubridor": "rutaFotosDescubridores/41.jpg"
+}

@@ -1,0 +1,29 @@
+{
+	"simbolo": "Kr",
+	"nombre": "KRIPTON",
+	"numeroAtomico": 36,
+	"numeroMasico": 84,
+	"grupo": 18,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 202 pm",
+		"El kriptón, como el resto de gases nobles es incoloro e inodoro.",
+		"El estado del kriptón en su forma natural esgaseoso (no magnético)",
+		"El Kriptón es un gas noble que, a diferencia de los demás elementos del grupo 18, despide una luz blanca incandescente cuando se excita en un campo eléctrico. De hecho, emite su propia luz o espectro verde amarillento y rojizo anaranjado.Su estructura sólida presenta un color blanco.",
+		"Su punto de fusión es: -157,4 °C y su punto de ebullición: -153, 4° C",
+		"Su densidad es: 3,7 g/ml."
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup>",
+	"Iones más probables: Al cumplir la regla del octeto tiene muy baja tendencia a ganar o perder electrones",
+	"Carácter metálico: No metal (Gas noble)",
+		"Muestra una reactividad química muy baja en condiciones normales."
+	],
+	"aplicaciones": [
+		"Existen muchas aplicaciones por ejemplo, se utiliza en dispositivos o aparatos fabricados para la iluminación como las lámparas de flash de gran velocidad.",
+		"El kriptón se utiliza para la producción de vidrio plano especial para el mercado solar, automotriz y la construcción."
+	],
+	"descubrimiento": "Fue descubierto por el químico Sir William Ramsay, en compañía de su asistente Morris W. Travers, el 30 de mayo del año 1898. Estos dos británicos licuaron el aire y, después, procedieron a realizar la destilación fraccionada. De esta manera, al calentar en exceso el aire líquido y evaporar la mayoría de la muestra consiguieron las propiedades del gas en cuestión.",
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/36.jpg"
+}

@@ -1,0 +1,33 @@
+{
+    "simbolo": "He",
+    "nombre": "HELIO",
+    "numeroAtomico": 2,
+    "numeroMasico": 4,
+	"grupo": 18,
+	"periodo": 1,
+    "propiedadesFisicas": [
+	"Radio atómico:140 pm",
+	"El helio es un gas incoloro, inodoro e insípido La densidad y la viscosidad del vapor de helio son muy bajas.", 
+                        "Su punto de fusión es -269,7 oC y su punto de ebullición -268,9 oC.",
+                        "En condiciones normales se encuentra en estado gaseoso.",
+                        "Es insípido, incoloro e inodoro."
+		],
+    "propiedadesQuimicas":   [ 
+		"Configuración electrónica: 1s<sup>2</sup>",
+		"Ión más probable: Al ser un gas noble, no se espera que forme ión alguno",
+		"Carácter metálico: Nulo, al ser un gas noble",
+                        "Tiene menor solubilidad en agua que cualquier otro gas. Es el elemento menos reactivo y esencialmente no forma compuestos químicos.",
+                                    "El gas tiene una densidad de 0.126 kg/m3"
+		],
+    "aplicaciones": 
+    
+                        "El helio es un elemento fundamental para la ciencia, ya que se utiliza para realizar resonancias magnéticas en medicina, además de ser fundamental para naves espaciales, telescopios y monitores de radiación.",
+    
+    "descubrimiento": 
+    
+                        "El 18 de agosto de 1868 el astrónomo francés Jules Janssen descubrió una línea amarilla en el espectro solar mientras observaba un eclipse solar, demostrando que la cromosfera era gaseosa. Esta fue la primera observación de esta línea espectral en particular, y una posible fuente para ella fue un elemento aún no descubierto en la tierra, el Helio. El 20 de octubre, Joseph Norman Lockyer en Inglaterra instaló un nuevo espectroscopio relativamente potente. También observó el espectro de emisión de la cromosfera, incluida la misma línea amarilla. En unos pocos años, trabajó con un químico y concluyeron que podría ser causado por un elemento desconocido, después de probar sin éxito para ver si se trataba de algún tipo nuevo de hidrógeno. Esta fue la primera vez que se descubrió un elemento químico en un cuerpo extraterrestre antes de ser encontrado en la tierra. Lockyer y el químico inglés Edward Frankland nombraron el elemento con la palabra griega para el Sol (helios).",
+    
+    
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/2.jpg"
+}

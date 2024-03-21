@@ -1,0 +1,26 @@
+{
+    "simbolo": "Eu",
+    "nombre": "Europio",
+    "numeroAtomico": 63,
+    "numeroMasico": 151.964,
+	"grupo": "Tierra rara (Lantánidos)",
+	"periodo": 6,
+    "propiedadesFisicas": [
+	"Radio atómico: 231 pm",
+                        "Metal noble.",
+            "Punto de fusión: 826° C",
+                        "Punto de ebullicion: 1527° C",
+                        "Densdiad 5,26 (g/ml)"
+                        ],
+"propiedadesQuimicas": [
+	"Configuración electrónica: [Xe] 4f<sup>7</sup> 6s<sup>2</sup>",
+	"Ión más probable: Catión de carga +3",
+	"Carácter metálico: Metal de comportamiento atípico al ser una tierra rara",
+                        "El metal es el segundo más volátil de las tierras raras.",
+            "Tiene una presión de vapor considerable en su punto de fusión."
+                     ],
+    "aplicaciones": "Fabricación de Televisiones y Lámparas fluorescentes. Se usa en forma de sales para revestimiento de tubos catódicos y en la forma de derivados orgánicos como reactivos de cambio en la espectroscopia de RMN.",
+    "descubrimiento":"El europio fue descubierto por Eugène-Anatole Demarçay, un químico francés, en 1896. Demarçay sospechaba que muestras de un elemento recientemente descubierto, el samario, estaban contaminadas con un elemento desconocido. Fue capaz de producir europio razonablemente puro en 1901.",
+ "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/63.jpg"
+}

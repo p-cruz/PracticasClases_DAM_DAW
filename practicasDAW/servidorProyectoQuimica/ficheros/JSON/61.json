@@ -1,0 +1,23 @@
+{
+    "simbolo": "Pm",
+    "nombre": "Prometio",
+    "numeroAtomico": 61,
+    "numeroMasico": 144.91,
+	"grupo": "Tierras raras (Lantánidos)",
+	"periodo": 6,
+    "propiedadesFisicas": [
+            "Punto de fusión de 1100 C º.", 
+            "Punto de ebullición de 3000 ºC.",
+	"Radio atómico: 205 pm"
+                        ],
+"propiedadesQuimicas": [
+		"Configuración electrónica: 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 4f5 5s2 5p6 6s2",
+		"Ión más probable: Ión de carga +2",
+                "Elemento de carácter metálico.",
+            "Es radioactivo y degenera por emisión de partículas beta "
+                        ],
+    "aplicaciones": "Se utiliza principalmente en la investigación con trazadores. Su principal aplicación la encontramos en la industria del fósforo. También se usa en la manufactura de calibradores de aberturas y en baterías nucleares empleadas en aplicaciones espaciales.",
+    "descubrimiento":"Descubierto por el Carl Auer von Welsbach en 1885Este elemento fue descubierto en 1945 por los químicos estadounidenses CharlesCoryell (1912-1971), Jacob Marinsky (1918-2005) y Lawrence Glendenin (1918-2008). Este elemento no es natural. Sólo se produce por fisión en reactores nucleares.",
+ "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/61.jpg"
+}

@@ -1,0 +1,28 @@
+{
+    "simbolo": "Hf",
+     "nombre": "HAFNIO",
+     "numeroAtomico": 72,
+     "numeroMasico": 178,
+	"grupo": 4,
+	"periodo": 6,
+     "propiedadesFisicas": [  
+		"Radio atómico: 225 pm",
+		"Es un metal dúctil, brillante plateado y lustroso",
+               "Su punto de fusión es: 2222ºC.",
+               "Su punto de ebullición es: 5400ºC.",
+               "Su densidad es: 13,1g/ml.",
+	"Es un metal dúctil, brillante, plateado y resistente a la corrosión; químicamente muy similar al circonio. Estos dos elementos tienen el mismo numero de electrones en sus capas exteriores y sus radios iónicos son muy similares debido a la contracción de los lantánidos. Por eso son muy difíciles de separar y no hay otros elementos químicos que se parezcan más entre si. Las únicas aplicaciones para las cuales se necesita separarlo es en aquellas que se utilizan por sus propiedades de absorción de neutrones, en reactores nucleares."
+               ],
+   "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup> 5s<sup>2</sup> 4d<sup>10</sup> 5p<sup>6</sup> 6s<sup>2</sup> 4f<sup>14</sup> 5d<sup>2</sup>",
+	"Ión más probable: De carga +2",
+	"Carácter metálico: Es un metal de transición típico.",
+	"Electronegatividad: 1,3",
+	"Primer potencial de ionización: 5,54",
+               "Es resistente a la corrosión y químicamente muy similar al zirconio, no es soluble en agua, existe la posibilidad de reaccionar con el boro, oxígeno, azufre, silicio, nitrógeno y carbono siempre que sea a altas temperaturas."
+               ],
+   "aplicaciones": "Es un elemento poco común de usos muy específicos, para fusiones con wolframio en electrodos y filamentos. Se emplea para el desarrollo de barras de control para reactores nucleares, en la producción de submarinos nucleares y lámparas de gas y en la fabricación de transistores de los procesadores.  Se utiliza en la fabricación de superaleaciones, así como en electrónica, cerámica, bombillas de luz..., También se utiliza para fabricar barras de control empeladas en reactores nucleares, como las que se pueden encontrar en submarinos nucleares, debido a que la sección de  captura de neutrones del hafnio es unas 600 veces la del circonio, con lo cual tiene una alta capacidad de absorción de neutrones y ademas tiene unas propiedades mecánicas muy buenas, así como una lata resistencia a la corrosión.Otras aplicaciones son:- Lamparas de gas e incandescentes- Para eliminar oxigeno y nitrógeno de tubos de vació-- En aleaciones de hierro, titanio, nionio, tántalo y otras aleaciones metálicas- En 2007 se anunció como reemplazante del silicio en microprocesadores",
+  "descubrimiento": "Se llamó hafnio por el nombre de Copenhaghe en latín, hafnia, la ciudad donde fue descubierto por Dirk Coster y George von Hevesy en 1923. Se descubrió pasando tetrayoduro de hafnio por un filamento caliente de wolframio. Poco después de se descubrimiento se predijo con la teoría de Bohr que estaría asociado con el circonio y finalmente se encontró en el circón mediante unos análisis con espectroscopia de rayos X en Noruega. Se separo del circonio mediante recristalizaciones sucesivas por Janzten y von Hevesey.",
+"fotoEF": "rutaFotosEF/fichero.jpg",
+     "fotoDescubridor": "rutaFotosDescubridores/72.jpg"
+}

@@ -1,0 +1,36 @@
+{
+	"simbolo": "Ar",
+	"nombre": "ARGÓN",
+	"numeroAtomico": 18,
+	"numeroMasico": 40,
+	"grupo": 18,
+	"periodo": 3,
+	"propiedadesFisicas": [
+	"Radio atómico: 71 pm",
+		"En condiciones normales el argón es un gas incoloro, inodoro e insípido, puede licuarse y solidificarse con facilidad.",
+		"Pese a ser incoloro el argón presenta un brillo violáceo al interactuar con un campo eléctrico",
+		"Su punto de fusión es -189,4oC",
+		"Su punto de ebullición es -185,8oC",
+		"Su densidad es 1,40 g/ml."
+
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup>",
+	"Iones mas probables: El argón ya es un gas noble, no le interesa ganar ni perder electrones ya que cumple con la regla del octeto.",
+	"Carácter metálico: Nulo, al ser un gas noble.",
+	"Primer potencial de ionización: 1520,6 kJ/mol", 
+	"El argón no forma compuestos químicos en el sentido normal de la palabra, aunque forma algunos compuestos clatratos débilmente enlazados con agua, hidroquinona y fenol.",
+	"El Argón es monoatomico, es decir, que solo esta formado por un átomo. - En condiciones normales el argón es un gas incoloro, inodoro e insípido.  - Pese a ser incoloro el argón presenta un brillo violáceo al interactuar con un campo eléctrico. - También es un gas inerte, es decir no reacciona con ningún otro elemento, por lo que es comúnmente utilizado para generar atmósferas inertes en la que realizar experimentos o diversos procesos industriales. También para evitar la degradación de alimentos conservados y preservar productos químicos y farmacéuticos de alta pureza. "
+	],
+	"aplicaciones": [
+"Se emplea como gas de relleno en lampara incandescentes ya que no reacciona con el material del  filamento incluso a altas temperatura y presión, prologando así la vida útil de la bombilla en sustitución del neón en lamparas fluorescentes cuando se desea un color verde-azul en vez del rojo del neón. También como sustituto del nitrógeno molecular (N2) cuando este no se comporta como gas inerte por las condiciones de la operación. ",
+"En el ámbito industrial y científico se emplea universalmente en la recreación de atmósferas inertes (no reaccionantes) para evitar reacciones químicas indeseadas en multitud de operaciones:- Soldadura por arco y soldadura a gas.- Fabricación de titanio y otros elementos reactivos.- Fabricación de monocristales de silicio y germanio para componentes semiconductores.",
+"Otro uso del argón es evitar la degradación de alimentos conservados y preservar productos químicos y farmacéuticos de alta pureza.", 
+"También el argón-39 es usado para la datación de núcleos de hielo y aguas bajo tierra. ",
+"Algunos de los otros usos o aplicaciones son:- Matanza de cerdos si hay brotes de enfermedades en granja- Apagar incendios donde es vital que el equipo no sufra daños.- El argón en forma liquida, es utilizado por los científicos para buscar la materia oscura"
+	],
+
+	"descubrimiento": "Henry Cavendish, en 1785, expuso una muestra de nitrógeno a descargas eléctricas repetidas en presencia de oxigeno para formar oxido de nitrógeno que posteriormente eliminaba y encontró que alrededor del 1% del gas original no se podía desvolver, afirmando entonces que el nitrógeno atmosférico tenia una densidad mayor que el nitrógeno puro obtenido a partir del nitrógeno. William Ramsay demostró que la diferencia se debía a la presencia de un segundo gas poco reactivo mas pesado que el nitrógeno, anunciando el descubrimiento del argón en 1894.",
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/18.jpg"
+}

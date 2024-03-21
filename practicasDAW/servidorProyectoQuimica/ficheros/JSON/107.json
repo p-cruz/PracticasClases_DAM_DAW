@@ -1,0 +1,21 @@
+{
+    "simbolo": "Bh",
+    "nombre": "Bohrio",
+    "numeroAtomico": 107,
+    "numeroMasico": 264,
+	"grupo": 7,
+	"periodo": 7,
+    "propiedadesFisicas": [
+"Radio atómico: 200 pm",
+"Tiempo de vida medio de 0.44 segundos."
+	],
+    "propiedadesQuimicas": [
+	"Configuración electrónica: [Xe] 7s<sup>2</sup> 5f<sup>14</sup> 6d<sup>5</sup>",
+	"Ión más probable: Posiblemente genere con mayor facilidad el catión +2, si bien por su corta vida media sea difícil de detectar",
+	"Carácter metálico: Comportamiento metálico de metal de tierra rara",
+"Prácticamente desconocidas por su tiempo de vida medio tan corto, aunque se espera que tenga propiedades químicas semejantes a las del elemento renio."],
+    "aplicaciones": "Los científicos están ansiosos por empezar a darle vida útil al bohrio en el mundo de la química elemental. Este elemento es bastante peculiar, ya que no se le ha encontrado utilidad hasta el momento.",
+    "descubrimiento":"Fue sintetizado e identificado sin ambigüedad en 1981 por un equipo de Darmstadt, Alemania, equipo dirigido por P. Armbruster y G. Müzenberg. La reacción usada para producir el elemento fue propuesta y aplicada en 1976 por un grupo de Dubna (cerca de Moscú), que estaba bajo la guía de Yu. Organessian. Un blanco de 209Bi fue bombardeado por un haz de proyectiles de 54Cr.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/107.jpg"
+}

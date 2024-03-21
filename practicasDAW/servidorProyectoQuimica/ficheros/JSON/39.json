@@ -1,0 +1,40 @@
+{
+    "simbolo": "Y",
+    "nombre": "Itrio",
+    "númeroAtomico": 39,
+    "numeroMasico": 88.906,
+	"grupo": 3,
+	"periodo": 5,
+    "propiedadesFisicas": [
+	"Su radio atómico es de 212 pm según el radio de Bohr",
+                        "Punto de fusión 1526 ºC ",
+                        "Punto de ebullición 3336 ºC ",
+                        "Densidad es 4,47 g/ml",
+"Es un Metal sólido de color blanco plateado, lustroso y altamente cristalino, inodoro, que puede conseguirse como polvo gris oscuro.",
+"El itrio es un metal plateado que reacciona en contacto con el aire. Aparece en las rocas ígneas de la corteza terrestre y está presente en mayor proporción en las rocas lunares.",
+"Cuando se lo extrae, aparece como un polvo gris oscuro.",
+"En la naturaleza, el itrio tiene un isótopo estable, el 89Y y varios isótopos inestables.",
+"Es conductor, ya que conduce bien el calor y la electricidad."
+                         ],
+    "propiedadesQuimicas": [
+	"La configuración electrónica de este elemento es [Kr] 5s<sup>2</sup> 4d<sup>1</sup>",
+	"Su ion más probable de formar según la regla del Octeto son cationes de tipo Y3+",
+	"Sobre su carácter metálico, sabemos que es un material metálico.",
+         "Sobre su reactividad química sabemos que es muy reactivo en ciertas condiciones. Reacciona rápidamente con los ácidos fuertes, a excepción de los ácidos nítrico y fluorhídrico. Además, reacciona con los halógenos a temperaturas superiores a 200 ºC, para formar haluros. Por otro lado, a temperaturas elevadas forma compuestos binarios con el fósforo, el selenio, el carbono, el fósforo, el silicio y el azufre. El itrio puede formar parte de compuestos químicos orgánicos.",
+"El itrio en polvo es inestable expuesto al aire. Entra en combustión al reaccionar con el oxígeno cuando la temperatura excede los 400 ºC.",
+"El agua reacciona rápidamente con el itrio y sus compuestos para formar óxido de itrio (III), conocido como itria.",
+"Los fluoruros, hidróxidos y oxalato de itrio son sales insolubles en agua, mientras que los bromuros, cloruros, yoduros, nitratos y sulfatos son solubles en agua.",
+"Su electronegatividad es de 1,22 según la escala de Pauling."
+                          ],
+    "aplicaciones": [
+                      "El itrio es ampliamente aprovechado para producir aleaciones.",
+                      "Se adhieren trazas de este elemento para incrementar la fuerza de aleaciones de aluminio y de magnesio, y para reducir el tamaño de los granos de cromo, molibdeno, titanio y zirconio.",
+"El itrio también se utiliza en televisiones de color dopados con el elemento europio, intervienen en la producción del color rojo en los televisores a color que usan tubos catódicos.",
+"En sanidad, el isótopo radiactivo del itrio, 90Y, ha sido empleado en al tratamiento de muchos tipos de cáncer.",
+"En cerámica y vidrio, el itrio se utiliza en la producción del nitruro de silicio, compuesto utilizado en la elaboración de una cerámica de una dureza de 8.5 (escala de Mohs), empleada en piezas de horno. El óxido de itrio se utiliza en la fabricación de un vidrio y una cerámica con baja expansión térmica.",
+"En aviación, Suelen añadirse pequeñas cantidades a las superaleaciones de níquel en las turbinas de aviación."
+                    ],
+    "descubrimiento": "El hallazgo de este elemento es responsabilidad del químico finlandés Johan Gadolin durante el año 1794. Este descubrimiento ocurrió en la famosa mina de Ytterby, un pueblo de Suecia, dentro del mineral Yttria. Más adelante, pudo ser aislado con rotundo éxito en el año 1828 gracias al alemán Friedrich Wöhler. Johan Gadolin recibió una muestra de iterbita de Arrhenius y realizó un análisis detallado de la misma en 1794, en Finlandia. Encontró que contenía 31% de sílice, 19% de alúmina, 12% de óxido de hierro y 38% de una tierra desconocida.  Los resultados de Gadolin fueron confirmados en 1797 por el químico sueco Anders Ekeberg. Ekeberg sugirió el nombre de itria para el óxido del nuevo metal de la tierra y, por lo tanto, el nuevo metal se denominó itrio.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/39.jpg"
+}

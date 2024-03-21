@@ -1,0 +1,29 @@
+{           
+    "simbolo": "Mn",
+    "nombre": "Manganeso",
+    "numeroAtomico": 25,
+    "numeroMasico": 54.938044,
+	"grupo": 7,
+	"periodo": 4,
+    "propiedadesFisicas": [
+	"Radio atómico: 161 pm",
+                      "Su punto de fusión es de 1245 ºC y su punto de ebullición 2150 ºC.",
+                      "Estado de oxidación principal +2."
+                          ],
+    "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>5</sup> 4s<sup>2</sup>",
+	"Iones más probable: Cationes de carga +2, +3, +4, +6, +7",
+	"Carácter metálico: Metal de transición de comportamiento típico",
+	"Posee brillo metálico y alta conductividad eléctrica",
+                        "El manganeso es un metal de transición.",
+                        "No es ácido, ni corrosivo, ni radiactivo"
+                           ],
+    "aplicaciones": [
+                        "Baterías desechables estándar.",
+                        "Producir acero inoxidable de bajo costo.",
+                        "Es aleado con aluminio para producir una aleación que es más resistente a la corrosión."
+                    ],
+    "descubrimiento":"Johann Gahn en 1774.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/25.jpg"
+}

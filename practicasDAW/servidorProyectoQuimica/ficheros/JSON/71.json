@@ -1,0 +1,30 @@
+{
+  		"simbolo": "Lu",
+            "nombre": "Lutecio",
+            "numeroAtomico": 71,
+            "numeroMasico": 174.97,
+		"grupo": "Tierra rara (Lantánido)",
+		"periodo": 6,
+            "propiedadesFisicas": [
+					"Radio Atómico: 227 pm",
+					"El punto de ebullición del lutecio es 3.402º C.",
+					"El punto de fusión del lutecio es 1.663º C.",
+					"La densidad del lutecio es 9,84 g/ml."
+                                ],
+		"propiedadesQuimicas": [
+					"Configuración electrónica: 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>4s<sup>2</sup>3d<sup>10</sup>4p<sup>6</sup>5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup>6s<sup>2</sup>4f<sup>14</sup>5d<sup>1</sup>",
+				"Ión más probable: El ión más probable es +3",
+				"Carácter metálico: El lutecio es un metal trivalente, de color blanco plateado, resistente a la corrosión y, en presencia de aire, relativamente estable.",
+					"El lutecio al disolverse genera variedad de sales, mientras que algunas son solubles, otras no logran disolverse.",
+					"Presenta una baja magnitud tóxica.",
+					"Debido a que es un metal resistente al desgaste, es común que reaccione con extrema lentitud con el aire o con el H2O y ante los ácidos.",
+					"En su estado natural está compuesto por un único isótopo estable, sus 33 compuestos restantes llamados radioisótopos son radioactivos."
+					],
+            "aplicaciones": [
+					"El lutecio se utiliza para determinar la edad de minerales y meteoritos.",
+					"El lutecio estable también se puede utilizar como catalizador en el craqueo del petróleo en las refinerías, y en diversos procesos químicos, como alquilación, hidrogenación y polimerización."
+					], 
+            "descubrimiento": "Los descubridores son George Urbain y Charles James en 1907.",
+            "fotoEF": "rutaFotosEF/fichero.jpg",
+            "fotoDescubridor": "rutaFotosDescubridores/71.jpg"
+}

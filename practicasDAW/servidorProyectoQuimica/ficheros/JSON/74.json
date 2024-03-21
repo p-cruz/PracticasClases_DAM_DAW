@@ -1,0 +1,26 @@
+{
+    "simbolo": "W",
+    "nombre": "WOLFRAMIO",
+    "numeroAtomico": 74,
+    "numeroMasico": 184,
+	"grupo": 6,
+	"periodo": 6,
+    "propiedadesFisicas": [
+		"Radio atómico: El radio atómico del Wolframio es 210 pm",
+               "Es el más pesado de todos los metales, es un elemento natural, solido de aspecto muy duro y denso de color blanco grisáceo y brillante. Es un metal de color blanquecino grisáceo brillante, blando, inodoro y textura metálica. El wolframio posee el coeficiente de dilatación térmica más bajo de todos los metales. Es un metal con buenas propiedades de conducción térmica y eléctrica."
+           ,
+               "Su punto de ebullición se encuentra a los 5930°C, y su punto de fusión a los 3422°C. Su densidad es 19250 Kg/m3. Su tiempo de vida media es 6,4 minutos en condiciones normales se encuentra en estado gaseoso."
+               ],
+   "propiedadesQuimicas": [
+		"Configuración electrónica: 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>4s<sup>2</sup>3d<sup>10</sup>4p<sup>6</sup>5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup>6s<sup>2</sup>4f<sup>14</sup>5d<sup>4</sup>",
+	"Ión más probable: Es el ión +5.",
+	"Carácter metálico: Bastante marcado al tratarse de un metal de transición.",
+               "El wolframio es un metal muy resistente a la corrosión.",
+                "Se trata de un elemento de rápida oxidación al entrar en contacto con el aire de la atmósfera.",
+               "A través de procesos químicos puede convertirse en una sal soluble, polvo y óxido de Wolframio. Es insoluble en agua. Reacciona a altas temperaturas con Carbono, Azufre, Cloro, Yodo y dióxido de Carbono."	
+   ],
+   "aplicaciones": "Alrededor del 20% del wolframio se usa para producir aleaciones de acero especializadas, como acero de alta velocidad, acero resistente al calor y aceros para herramientas, todo utilizado en gran medida en aplicaciones de corte de metales y aplicaciones de ingeniería especializadas. En estado puro se utiliza en la fabricación de filamentos para lámparas eléctricas, resistencias para hornos eléctricos con atmosfera reductoras o neutras, contactos eléctricos.",
+    "descubrimiento": "Los suecos químicos Carl Wilhelm y Bergman Tobern realizaron los trabajos de investigación sobre el mineral tungsteno conocido poco hasta entonces. Llegan a la conclusión de que hay un nuevo elemento, pero sin poder identificarlo, ni separarlo del mineral en su totalidad. Más tarde, en el año 1783 el famoso químico español Juan José Elhuyar y su hermano Fasto consiguen extraer el nuevo elemento puro al que llamaron Wolframio o Tungsteno. El hallazgo se produjo en las minas ubicadas entre República Checa y Alemania. Se produce en la naturaleza entre las rocas o mezclado con algunos minerales.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/74.jpg"
+}

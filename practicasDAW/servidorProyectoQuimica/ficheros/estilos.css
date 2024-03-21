@@ -1,0 +1,235 @@
+body{
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  background-attachment: fixed;
+  overflow: hidden;
+  height: 100vh;  
+  padding: 15px;
+}
+
+#titulo{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+}
+
+#titulo > h1{
+  text-align: center;
+}
+
+#tabla-periodica{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(7, 1fr)
+    [separator-start] 0.25fr
+    [separator-end lanthanides-start] 1fr
+    [lanthanides-end actinides-start] 1fr
+    [actinides-end];
+  grid-gap: 0.125em;
+  list-style: none;
+  padding: 0;
+  font: 1em/1 Calibri, sans-serif;
+  counter-reset: atomic-number;
+}
+
+#tabla-periodica li{
+  background-color:darkgreen;
+  color: white;
+  padding: 0.5em 0.125em;
+  text-align: center;
+  counter-increment: atomic-number;
+}
+
+#tabla-periodica li:nth-of-type(2)
+{
+  grid-column: 18;
+  background-color: cyan;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(5),
+#tabla-periodica li:nth-of-type(13)
+{
+  grid-column: 13;
+  background-color: lime;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(n+58):nth-of-type(-n+71)
+{
+  grid-row: lanthanides;
+}
+
+#tabla-periodica li:nth-of-type(n+90):nth-of-type(-n+103)
+{
+  grid-row: actinides;
+}
+
+#tabla-periodica::after
+{
+  content: '';
+  grid-row: lanthanides / actinides;
+  grid-column: 1 / 4;
+}
+
+#tabla-periodica li::before
+{
+  content: counter(atomic-number, decimal);
+  font-feature-settings: 'frac'; 
+}
+
+#tabla-periodica li
+{
+  font-size: 1.5em;
+}
+
+#tabla-periodica li::after
+{
+  content: attr(title);
+  display: block;
+  font-size: 0.6em;
+}
+
+#tabla-periodica li:nth-of-type(1), #tabla-periodica li:nth-of-type(n+6):nth-of-type(-n+8), #tabla-periodica li:nth-of-type(15), #tabla-periodica li:nth-of-type(16), #tabla-periodica li:nth-of-type(34){
+  background-color: rgb(106, 0, 255);
+}
+
+#tabla-periodica li:nth-of-type(3), #tabla-periodica li:nth-of-type(11), #tabla-periodica li:nth-of-type(19), #tabla-periodica li:nth-of-type(37), #tabla-periodica li:nth-of-type(55), #tabla-periodica li:nth-of-type(87){
+  background-color: coral;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(4), #tabla-periodica li:nth-of-type(12), #tabla-periodica li:nth-of-type(20), #tabla-periodica li:nth-of-type(38), #tabla-periodica li:nth-of-type(56), #tabla-periodica li:nth-of-type(88){
+  background-color: burlywood;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(n+21):nth-of-type(-n+30),#tabla-periodica li:nth-of-type(n+39):nth-of-type(-n+48), #tabla-periodica li:nth-of-type(n+57):nth-of-type(-n+80), #tabla-periodica li:nth-of-type(n+89):nth-of-type(-n+112){
+  background-color: palegoldenrod;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(n+90):nth-of-type(-n+103){
+  background-color: lightgreen;
+}
+
+#tabla-periodica li:nth-of-type(n+58):nth-of-type(-n+71){
+  background-color: yellowgreen;
+}
+
+#tabla-periodica li:nth-of-type(13), #tabla-periodica li:nth-of-type(31), #tabla-periodica li:nth-of-type(49), #tabla-periodica li:nth-of-type(81), #tabla-periodica li:nth-of-type(49), #tabla-periodica li:nth-of-type(81), #tabla-periodica li:nth-of-type(113), #tabla-periodica li:nth-of-type(50), #tabla-periodica li:nth-of-type(82), #tabla-periodica li:nth-of-type(83), #tabla-periodica li:nth-of-type(114), #tabla-periodica li:nth-of-type(115), #tabla-periodica li:nth-of-type(116){
+  background-color: yellow;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(14), #tabla-periodica li:nth-of-type(32), #tabla-periodica li:nth-of-type(33), #tabla-periodica li:nth-of-type(51), #tabla-periodica li:nth-of-type(52), #tabla-periodica li:nth-of-type(84){
+  background-color: lime;
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(9), #tabla-periodica li:nth-of-type(17), #tabla-periodica li:nth-of-type(35), #tabla-periodica li:nth-of-type(53), #tabla-periodica li:nth-of-type(85), #tabla-periodica li:nth-of-type(117){
+  background-color: rgb(255, 99, 255);
+  color:black;
+}
+
+#tabla-periodica li:nth-of-type(10), #tabla-periodica li:nth-of-type(18), #tabla-periodica li:nth-of-type(36), #tabla-periodica li:nth-of-type(54),#tabla-periodica li:nth-of-type(86), #tabla-periodica li:nth-of-type(118){
+  background-color: cyan;
+  color:black;
+}
+
+/*Estilos añadidos*/
+
+ol li{
+  margin: 6px 4px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+ol li:hover{
+  transform: scale(1.2);
+}
+
+img{
+  display: block;
+  width: 300px;
+  min-height: 250px;
+  max-height: 250px;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px #333;
+  border-radius: 50%;
+  
+}
+
+.modal-body div{
+  background: white;
+  border: 1px solid gray;
+  padding: 10px;
+  color: #333;
+  margin: 10px 3px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: all 300ms;
+  padding: 15px;
+}
+
+.modal-body div:hover{
+  background: #333;
+  color: white;
+}
+
+.modal-body .fotoDescubridor{
+  border: none !important;
+}
+
+.fotoDescubridor{
+  text-align: center;
+  font-size: 25px;
+}
+
+footer{
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px black,
+               0px 0px 2px black,
+               0px 0px 3px black,
+               0px 0px 4px black,
+               0px 0px 5px black;
+  text-transform: uppercase;
+}
+
+.modal-body{
+  display: grid;
+  grid-template-areas: 
+            "foto foto nombre grupo"
+            "foto foto simbolo numeroAtomico"
+            "foto foto numeroMasico periodo"
+            "propiedadesFisicas propiedadesFisicas propiedadesQuimicas propiedadesQuimicas"
+            "descubrimiento descubrimiento aplicaciones aplicaciones";
+  
+}
+
+.modal-body li{
+  margin: 2px 0px;
+  font-size: 18px;
+  padding: 7px;
+}
+
+strong{
+  font-size: 23px;
+  display: block;
+}
+
+.fotoDescubridor { grid-area: foto; }
+.simbolo { grid-area:simbolo; }
+.nombre { grid-area: nombre; }
+.numeroAtomico { grid-area: numeroAtomico;}
+.numeroMasico{grid-area: numeroMasico;}
+.grupo {grid-area: grupo;}
+.periodo {grid-area: periodo;}
+.propiedadesFisicas{grid-area: propiedadesFisicas;}
+.propiedadesQuimicas{grid-area: propiedadesQuimicas;}
+.aplicaciones{grid-area: aplicaciones;}
+.descubrimiento{grid-area: descubrimiento;}

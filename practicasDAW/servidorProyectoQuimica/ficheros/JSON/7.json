@@ -1,0 +1,39 @@
+{
+    "simbolo": "N",
+      "nombre": "Nitrógeno",
+      "numeroAtomico": 7,
+      "numeroMasico": 14.0067,
+	"grupo": 15,
+	"periodo": 2,
+      "propiedadesFisicas": [
+	"Radio atómico: 155 pm",
+                          "Punto fusión: 63,14 K (-210 °C)",
+              "Punto de ebullición: 77,35 K (-196 °C)",
+              "Densidad: 1,2506 kg/m3."
+                  ],                
+  "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>3</sup>",
+	"Ión más probable: El más habitual es el de carga -3.",
+	"Carácter metálico: Es muy bajo, al ser un no metal",
+                          "El nitrógeno, consta de dos isótopos, 14N y 15N, en abundancia relativa de 99.635 a 0.365.",
+              "Además se conocen los isótopos radiactivos 12N, 13N, 16N y 17N, producidos por una variedad de reacciones nucleares.",
+              "A presión y temperatura normales, el nitrógeno molecular es un gas con una densidad de 1.25046 g por litro.",
+              "El nitrógeno elemental tiene una reactividad baja hacia la mayor parte de las sustancias comunes, a temperaturas ordinarias.",
+              "A altas temperaturas, reacciona con cromo, silicio, titanio, aluminio, boro, berilio, magnesio, bario, estroncio, calcio y litio para formar nitruros; con O2, para formar NO, y en presencia de un catalizador, con hidrógeno a temperaturas y presión bastante altas, para formar amoniaco.",
+              "El nitrógeno, carbono e hidrógeno se combinan por encima de los 1800ºC (3270ºF) para formar cianuro de hidrógeno.",
+              "Cuando el nitrógeno molecular se somete a la acción de un electrodo de descarga condensada o a una descarga de alta frecuencia se activa en forma parcial a un intermediario inestable y regresa al estado basal con emisión de un resplandor amarillo oro."
+              ],                             
+      "aplicaciones": [
+          "Industria Alimenticia.",
+          "Industria de bombillas de luz.",
+          "Sistemas de extinción de incendios.",
+          "Fabricación de aceo inoxidable.",
+          "Llenado de neumáticos.",
+          "Sistemas de combustible de aviones.",
+          "Análisis químico e industria química.",
+          "Barriles de cerveza presurizados."
+          ],
+      "descubrimiento": "Se atribuye al médico escocés Daniel Rutherford, tío del novelista sir Walter Scott, el descubrimiento del nitrógeno. Su maestro Joseph Black había descubierto que la atmósfera está formada mayoritariamente por dos gases: uno que permitía la vida y la combustión, y otro que no.",
+   "fotoEF": "rutaFotosEF/fichero.jpg",
+      "fotoDescubridor": "rutaFotosDescubridores/7.jpg"
+  }

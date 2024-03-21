@@ -1,0 +1,28 @@
+{
+    "simbolo": "F",
+      "nombre": "Fluor",
+      "numeroAtomico": 9,
+      "numeroMasico": 18,
+	"grupo": 17,
+	"periodo": 2,
+      "propiedadesFisicas": [
+		"Radio atómico: 42 pm",
+		"Punto de fusión: -219,6 ºC",
+		"Punto de ebullición: -188,1ºC",
+		"Densidad: 1696 kg/m<sup>3</sup>",
+                          "Es un gas a temperatura ambiente",
+		"Es de color amarillo pálido, formado por moléculas diatómicas",
+		"El flúor es el decimotercer elemento en orden de abundancia"
+                  ],                
+  "propiedadesQuimicas": [
+		"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>5</sup>",
+		"Ión más probable: Formará con mayor facilidad el anión de carga -1",
+		"Carácter metálico: Es un no metal típico",
+                          "Es un halógeno",
+                          "Es el más electronegativo y reactivo de todos los elementos."
+                  ],                             
+      "aplicaciones": "Fortalece el esmalte de los dientes y actúa contra el crecimiento de las bacterias. Se puede introducir dentro de unos hornos para reducir la viscosidad en la metalurgia del hierro La falta de flúor puede llevar a un aumento de las caries dentales y a huesos y dientes débiles. ",
+      "descubrimiento": "Se descubrió en 1886 por Henri Moissan. Entre 1879 y 1886, fue profesor en la Escuela Superior de Farmacia, impartiendo clases de Química y Toxicología. En 1886, consigue aislar el flúor en forma de gas de color amarillo-verdoso mediante electrólisis de una solución de fluorhidrato potásico en ácido fluorhídrico anhidro. El flúor se obtiene mediante electrólisis de una mezcla de HF y KF. Se produce la oxidación de los fluoruros: 2F- → F2 + 2e. En el cátodo se descarga hidrógeno, por lo que es necesario evitar que entren en contacto estos dos gases para que no haya riesgo de explosión.",
+      "fotoEF": "rutaFotosEF/fichero.jpg",
+      "fotoDescubridor": "rutaFotosDescubridores/9.jpg"
+  }

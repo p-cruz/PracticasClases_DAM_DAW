@@ -1,0 +1,28 @@
+{
+    "simbolo": "H",
+    "nombre": "HIDROGENO",
+    "numeroAtomico": 1,
+    "numeroMasico": 1.00797,
+    "grupo": 1,
+    "periodo": 1,
+    "propiedadesFisicas": [
+        "Radio atómico: 53 pm",
+        "El hidrógeno es el primer elemento de la tabla periódica.",
+        "Es el elemento químico más ligero que existe, su átomo está formado por un protón y un electrón y es estable en forma de molécula diatómica.",
+        "En condiciones normales se encuentra en estado gaseoso.",
+        "Es insípido, incoloro e inodoro."
+    ],
+    "propiedadesQuimicas": [
+        "Configuración electrónica: 1s<sup>1</sup>",
+        "Iones más probables: sus iones más probables son +1 y -1.",
+        "Carácter metálico: puede actuar como metal y no metal, dependiendo de con quién se convine.",
+        "El hidrógeno molecular común tiene un peso molecular de 2.01594.",
+        "El gas tiene una densidad de 0.071 g/l a 0ºC y 1 atm.",
+        "Su densidad relativa, comparada con la del aire, es de 0.0695.",
+        "El hidrógeno es la sustancia más inflamable de todas las que se conocen."
+    ],
+    "aplicaciones": "El hidrógeno posee aplicaciones en el ámbito industrial, empresarial y en la vida diaria. Se emplea en hidrocarburos, combustibles, fertilizantes, entre otros.",
+    "descubrimiento": "En 1671, Robert Boyle descubrió y describió la reacción entre las limaduras de hierro y los ácidos diluidos, lo que resulta en la producción de gas hidrógeno. En 1766, Henry Cavendish fue el primero en reconocer el gas de hidrógeno como una sustancia discreta, al nombrar el gas de una reacción de ácido de metal como aire inflamable. Especuló que el aire inflamable era, de hecho, idéntico a la sustancia hipotética llamada flogisto y además descubrió en 1781 que el gas produce agua cuando se quema. Generalmente se le da crédito por el descubrimiento del hidrógeno como un elemento. En 1783, Antoine Lavoisier le dio al elemento el nombre de hidrógeno.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/1.jpg"
+}

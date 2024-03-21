@@ -1,0 +1,29 @@
+{
+    "simbolo": "Cl",
+      "nombre": "Cloro",
+      "numeroAtomico": 17,
+      "numeroMasico": 35.45,
+	"grupo": 17,
+	"periodo": 3,
+      "propiedadesFisicas": [
+	"Radio atómico: 175 pm",
+                        "Punto de fusión: -100.98 ºC.",
+                    "Punto de ebullición: -34.05 ºC",
+                    "Gas liviano."
+                  ],                
+  "propiedadesQuimicas": [
+	"Configuración electrónica: [Ne] 3s<sup>2</sup> 3p<sup>4</sup>",
+	"Ión más probable: El anión con carga -1 para alcanzar la configuración de gas noble",
+                        "Carácter metálico: No metálico.",
+              "Halógeno típico.",
+              "Con propiedades electronegativas."
+              ],                             
+      "aplicaciones": [
+              "Desactivación de patógenos en agua potable, en la industria alimentaria, piscinas, hospitales, y aguas residuales.",
+              "Para la desinfección de áreas domésticas y para el blanqueamiento de textiles.",
+              "Se usa en la manufactura de miles de productos."
+              ],
+      "descubrimiento": "El cloro en su forma pura fue descubierto en 1774 por Carl Wilhelm Scheele, un químico de ascendencia alemana y sueca. Se produjo en una reacción de óxido de manganeso (IV) con ácido clorhídrico.",
+   "fotoEF": "rutaFotosEF/fichero.jpg",
+      "fotoDescubridor": "rutaFotosDescubridores/17.jpg"
+  }

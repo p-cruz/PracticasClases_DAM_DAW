@@ -1,0 +1,27 @@
+{
+	"simbolo": "Se",
+	"nombre": "SELENIO",
+	"numeroAtomico": 34,
+	"numeroMasico": 79,
+	"grupo": 16,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 115 pm",
+"El selenio es gris metálico, color plata y quebradizo.Su punto de fusión es 221 ºC y su punto de ebullición es 684, 8 ºC.Su densidad es 4, 79 g / ml"
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: [Ar] 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>4</sup>",
+	"Ión más probable: Formará el anión -2 para cumplir la regla del octeto",
+	"Carácter metálico: Aunque el selenio es un no metal, comparte algunas propiedades con los metales. Por ejemplo, es un semiconductor, lo que significa que su conductividad eléctrica está entre la de un metal y un aislante",
+		"En el alcohol y agua es insoluble, en el éter es soluble y el disulfuro de carbono es ligeramente soluble.",
+		"No es dúctil ni maleable."
+	],
+	"aplicaciones": [
+		"Tiene aplicaciones en industria, medicina, como pigmento, en electrónica, agricultura."
+	],
+
+	"descubrimiento": ["Fue descubierto en el año 1817 por el químico sueco Jons Jacob Berzelius.En una visita a una fábrica de ácido sulfúrico, notó un líquido de color pardo rojizo que al calentarse mediante un soplete expelía un olor fétido que era parecido al olor del telurio."],
+
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/34.jpg"
+}

@@ -1,0 +1,34 @@
+{
+    "simbolo": "Nd",
+ "nombre": "Neodimio",
+ "numeroAtomico": 60,
+ "numeroMasico": 144,
+"grupo": 3,
+"Periodo": 6,
+ "propiedadesFisicas": [
+	"Su radio atómico es de 206 pm según el radio de Bohr.",
+	"Metal plateado y brillante, de apariencia blanca plateada brillante amarillenta y forma compuestos de color rosado o púrpura. relativamente maleable y de considerable dureza, equiparable a la del hierro.",
+	"Posee un brillo metálico, plateado y brillante. El óxido Nd2O3, es un polvo azul claro. Oscurece rápidamente al contacto con el aire formando óxido.",
+	"Oscurece rápidamente al contacto con el aire  formando oxido.",
+	"Su punto de fusión es 1024ºC, su punto de ebullición es 3100ºC y su densidad es 7010kg/m³.",
+	"Cuando se le golpea emite un tintineo que recuerda al del bronce." 
+],
+   "propiedadesQuimicas": [
+	"La configuración electrónica de este elemento es [Xe] 4f<sup>14</sup> 6s<sup>2</sup>.",
+	"Su ion más probable de formar según la regla del Octeto son cationes de carga 3+.",
+	"El neodimio forma parte del grupo de los lantánidos.",
+	"Carácter metálico marcado.",
+"Elemento quimico metalico, pertenece al grupo de las tierras raras.",
+"Se encuentra en la naturaleza en seis isótopos.",
+"Se disuelve en ácidos minerales para dar soluciones violetas rojizas."
+               ],
+   "aplicaciones": [
+"Su aplicación principal es la creación de potentes imanes permanentes, también llamados imanes NIB. Los imanes NIB se utilizan en computadoras, teléfonos celulares, equipos médicos, juguetes, motores, turbinas eólicas y sistemas de audio.",
+"Los imanes de neodimio también se utilizan en la producción de turbinas eólicas. Estos imanes se utilizan en el generador de la turbina, permitiendo generación de energía eficiente.",
+"En forma de óxido, el óxido de Neodimio sirve para en láseres de alta potencia, como el de radiación infrarroja y cámaras fotográficas.",
+"Se utiliza entre otras cosas, para hacer imanes que hacen funcionar los motores de los vehículos eléctricos."
+	],
+ "descubrimiento": "El hallazgo de este elemento es responsabilidad del químico finlandés Johan Gadolin durante el año 1794. Este descubrimiento ocurrió en la famosa mina de Ytterby, un pueblo de Suecia, dentro del mineral Yttria. Más adelante, pudo ser aislado con rotundo éxito en el año 1828 gracias al alemán Friedrich Wöhler.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+ "fotoDescubridor": "rutaFotosDescubridores/60.jpg"
+}

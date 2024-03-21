@@ -1,0 +1,27 @@
+{
+	"simbolo": "Sc",
+	"nombre": "Escandio",
+	"numeroAtomico": 21,
+	"numeroMasico": 44.956,
+	"grupo": 3,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 230 pm",
+		"El escandio posee elevada dureza, puntos de ebullición y fusión elevados y es buen conductor de la electricidad y el calor.",
+		"El estado del escandio en su forma natural es sólido."
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: [Ar] 4s<sup>2</sup> 3d<sup>1</sup>",
+	"Ión más probable: Catión +3",
+	"Carácter metálico: Es un metal blando, muy ligero, resistente al ataque del ácido nítrico y fluorhídrico, cuyo color plateado deslustra expuesto al aire adoptando un color ligeramente rosado.",
+		"El escandio es un metal blando de apariencia plateada. Desarrolla un tono ligeramente amarillento o rosado cuando se oxida con el aire.",
+		"Es susceptible a la intemperie y se disuelve lentamente en la mayoría de los ácidos diluidos."
+	],
+	"aplicaciones": [
+		"El escandio se utiliza en aleaciones de aluminio para componentes de la industria aeroespacial.",
+		"El escandio se utiliza para equipos deportivos como cuadros de bicicleta, cañas de pescar, palos de hierro y bates de béisbol."
+	],
+	"descubrimiento": "El escandio fue descubierto por Lars Fredrick Nilson en 1879 mientras trabajaba con su equipo en la búsqueda de metales tierras raras mediante análisis espectral de los minerales euxenita y gadolinita. La primera libra de escandio del 99% de pureza se fabricó en 1960.",
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/21.jpg"
+}

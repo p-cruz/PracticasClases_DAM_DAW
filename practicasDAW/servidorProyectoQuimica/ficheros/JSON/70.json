@@ -1,0 +1,26 @@
+{
+    "simbolo": "Yb",
+     "nombre": "ITERBIO",
+     "numeroAtomico": 70,
+     "numeroMasico": 173,
+	"grupo": "Tierras raras (Lantánido)",
+	"periodo": 6,
+     "propiedadesFisicas": [  
+	"Radio atómico: 228 pm",
+"Es un metal de color blando plateado, que puede cambiar a amarillo al estar expuesto al aire. Presenta un sabor amargo un tanto desagradable y un curioso olor parecido al ajo",
+               "Su punto de fusión es: 819ºC/1092,15K.",
+               "Su punto de ebullición es: 1196ºC/1469,15K.",
+               "Su densidad es: 6,98g/ml.",
+               "Su tiempo de vida es: estable."
+               ],
+   "propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup> 4f<sup>14</sup> 5d<sup>10</sup> 6s<sup>2</sup>",
+	"Ión más probable: Catión con carga +2",
+	"Carácter metálico: Es un metal suave plateado que se corroe lentamente en el aire y se asemeja más a la serie del calcio, el estroncio y el bario que a la serie de las tierras raras.",
+               "El iterbio es un metal blando, maleable y dúctil, de color blanco plateado y brillante. A pesar de ser un elemento bastante estable debe guardarse en recipientes cerrados para protegerlo del aire de la humedad ya que reacciona. Siendo una tierra rara, el elemento es fácilmente atacado y disuelto por ácidos minerales, reacciona lentamente con agua y se oxida en el aire."
+               ],
+   "aplicaciones": "Es usado como fuente de radiación sustituta para una máquina portátil de rayos X cuando la electricidad no está disponible. También puede ser usado para ayudar a mejorar el refinamiento del grano, la fuerza y otras propiedades mecánicas del acero inoxidable.",
+     "descubrimiento": "Su nombre viene del nombre de una localidad suiza llamada Ytterby. Se descubrió en Ginebra en el año 1878 por el químico Jean Charles de Marignac. Aunque entre el 1907 y 1908 el químico austríaco Carl Auer von Welsbach y el químico francés Georges Urbain, descubrieron que se podía separar el iterbio de Jean Charles en los elementos iterbio y lutecio que en un principio se llamaban aldebariano y casiopeo respectivamente.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+     "fotoDescubridor": "rutaFotosDescubridores/70.jpg"
+}

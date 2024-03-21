@@ -1,0 +1,23 @@
+{
+    "simbolo": "Og",
+    "nombre": "OGANESÓN",
+    "numeroAtomico": 118,
+    "numeroMasico": 294,
+	"grupo": 18,
+	"periodo": 7,
+    "propiedadesFisicas": [
+	"Radio atómico:152 pm",
+        "Es un elemento obtenido de forma artificial y el que tiene la masa y el número atómico más alto de todos",
+        "Su punto de fusión es desconocido y su punto de ebullición está entre 47 y 107 ºC. Su densidad es 13650Kg/m3."
+    ],
+    "propiedadesQuimicas": [
+	"Configuración electrónica: [Rn] 7s<sup>2</sup> 5f<sup>14</sup> 6d<sup>10</sup> 7p<sup>6</sup>",
+	"Ión más probable: No tiene tendencia a formar ningún tipo de ión al cumplir la regla del octeto en su forma neutra",
+	"Carácter metálico: Según la predicción de los científicos el Oganesón dispone de 118 neutrones, alta electronegatividad y una afinidad electrónica positiva, al contrario que el resto de gases nobles. Asimismo, tiene una baja energía de ionización y, hasta la fecha, han sido sintetizados 3 o 4 átomos del Oganesón.",
+"Es altamente radiactivo e inestable. Los cálculos teóricos cuánticos predicen que, puede reaccionar bajo condiciones normales, a diferencia de los demás elementos de su grupo"
+	],
+    "aplicaciones": "no se conocen los usos del Oganesón hoy día puesto que se trata de un elemento nuevo, además por ser radiactivo no tendría utilidad en el ámbito comercial o doméstico aunque si es aplicado para investigaciones científicas.",
+    "descubrimiento": "Existe cierta controversia en cuanto al descubridor del oganesón, según la historia, el polaco Robert Smolanczuk a finales de 1998 anunció sus cálculos para producir este elemento; la publicación del físico sugirió que debe fusionarse plomo con kripton bajo cuidadosas condiciones controladas. Durante 1999 un equipo de científicos estadounidenses, del Laboratorio Nacional Berkeley, utilizó los cálculos de Smolanczuk y proclamó su descubrimiento.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/118.jpg"
+} 

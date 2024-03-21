@@ -1,0 +1,28 @@
+{
+	"simbolo": "Cr",
+	"nombre": "CROMO",
+	"numeroAtomico": 24,
+	"numeroMasico": 52,
+	"grupo": 6,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 128 pm",
+"Se trata de un elemento químico de tipo metal duro, pero quebradizo y de aspecto blanco plateado",
+		"Su punto de fusión es: 1857ºC.",
+		"Su punto de ebullición es: 2672ºC.",
+		"Su densidad es: 7,14g/ml."
+
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: [Ar] 3d<sup>5</sup> 4s<sup>1</sup>",
+	"Iones más probable: Forma cationes de carga +2, +3, +6",
+	"Carácter metálico: Metal de transición típico",  
+		"Su principal característica es su elevada resistencia a la corrosión",
+		"Puede formar enlaces con la mayoría de los elementos químicos, como el oxígeno para formar óxidos",
+		"Cuando reacciona con algún elemento produce enlaces químicos fuertes, y dependiendo de las condiciones, puede transformarse."
+	],
+	"aplicaciones": ["En metalurgia sirve para dar un acabado brillante, resistencia a la corrosión y tratamiento antioxidante, los cromatos y óxidos se utilizan en colorantes, pinturas y mordientes y se usa como catalizador entre otras aplicaciones"],
+	"descubrimiento": ["Estudios arqueológico ubican al metal en el ejército de Qin, durante el año 210 a.C., cuando empleó en sus armas una cobertura del metal. Más tarde, en 1798, Louis Nicolás Vauquelin consiguió aislarlo al calentar el óxido con carbón en polvo."],
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/24.jpg"
+}

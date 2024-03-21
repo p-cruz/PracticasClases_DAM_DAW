@@ -1,0 +1,27 @@
+{
+    "simbolo":"Po",
+    "nombre":"POLONIO",
+    "numeroAtomico":84,
+    "numeroMasico":210,
+	"grupo": 16,
+	"periodo": 6,
+    "propiedadesFisicas":[
+	"Radio atómico: 190 pm",
+       "Es un metal sólido de color cris plateado, inodoro con un leve sabor metálico.",
+       "Su punto de fusión es: 254ºC",
+       "Su punto de ebullición es:962ºC",
+       "Su densidad es: 9196kg/m3"
+    ],
+    "propiedadesQuimicas":[
+	"Configuración electrónica: [Xe] 6s<sup>2</sup> 4f<sup>14</sup> 5d<sup>10</sup> 6p<sup>4</sup>.",
+	"Iones más probables: El polonio generalmente forma iones con una carga de -2 o -4, ganando electrones para alcanzar la configuración electrónica más estable.",
+	"Carácter metálico: El polonio es un metaloide, lo que significa que comparte algunas propiedades con los metales y algunos con los no metales. Tiene un carácter metálico, pero es menos metálico que otros elementos en su misma columna de la tabla periódica.",
+       "Su solubilidad es baja, si disuelve rápido en ácidos y es poco soluble en alcalinos. Su reactividad es moderada con el aire de forma suave y no interactúa con el agua."
+    ],
+    "aplicaciones":[
+       "Pese a que los usos del polonio se ven limitados por su alta reactividad, se emplea en dispositivos diseñados para eliminar cargas estáticas de artículos textiles, se utiliza en cepillos que limpian el polvo en películas fotográficas y también se usa en satélites espaciales dónde es capaz de formar altas temperaturas y emitir energía"
+    ],
+    "descubrimiento":"Fue descubierto por Marie Curie en 1898. Junto con su esposo lograron aislarlo del uranio, radio y bismuto mediante un electroscopio y emisiones de radiación.",
+    "fotoEF":"rutaFotosEF/fichero.jpg",
+    "fotoDescubridor":"rutaFotosDescubridores/84.jpg"
+ }

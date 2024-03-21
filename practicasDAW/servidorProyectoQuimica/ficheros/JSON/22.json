@@ -1,0 +1,29 @@
+{
+	"simbolo": "Ti",
+	"nombre": "TITANIO",
+	"numeroAtomico": 22,
+	"numeroMasico": 48,
+	"grupo": 4,
+	"periodo": 4,
+	"propiedadesFisicas": [
+	"Radio atómico: 147 pm",
+"Es un metal de transición en color gris, estado sólido que dispone de gran dureza y muy resistente a la corrosión",
+		"Su punto de fusión es: 1668ºC.",
+		"Su punto de ebullición es: 3287ºC.",
+		"Su densidad es: 4,23g/ml.",
+	"En temperatura bajas se cristaliza en forma hexagonal compacta pero a temperaturas más altas presenta forma cúbica.",
+	"El titanio tiene una densidad relativamente baja en comparación con otros metales, lo que lo hace atractivo en aplicaciones donde se busca una combinación de resistencia y ligereza. El titanio es un conductor eléctrico, pero su conductividad es más baja en comparación con metales más comunes como el cobre y el aluminio."
+	],
+	"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>2</sup> 4s<sup>2</sup>",
+	"Iones más probables: El titanio comúnmente forma iones con un estado de oxidación de +4. Por lo tanto, el ión más probable es Ti<sup>4+</sup>. Sin embargo, también puede formar iones con un estado de oxidación de +3.",
+	"Carácter metálico: El titanio es un metal de transición. Los metales de transición, como el titanio, tienden a tener propiedades metálicas, como conductividad eléctrica y térmica, maleabilidad y ductilidad.",
+		"Aunque el titanio es resistente a la corrosión, es activo químicamente y puede reaccionar con oxígeno, nitrógeno y otros elementos a altas temperaturas. El titanio puede ser reducido por metales alcalinos y alcalinotérreos en condiciones apropiadas. También puede ser reducido mediante procesos metalúrgicos para obtener el metal puro.",
+		"Presenta una reactividad química alta",
+		"En temperatura bajas se cristaliza en forma hexagonal compacta pero a temperaturas más altas presenta forma cúbica."
+	],
+	"aplicaciones": ["Es muy común usarlo en aleaciones de acero inoxidable a fin de reducir el contenido de carbono, las más frecuentes son con hierro, manganeso, vanadio, cobre y otros metales. Se emplea en industria aeroespacial y aeronáutica, medicina, industria química, joyería, aditivos y pigmentos"],
+	"descubrimiento": ["Su descubrimiento data del año 1791 por el clérigo William Gregor. Este minerólogo encontró una especie de arena negra en un riachuelo y observó que un imán la atraía. Analizó y presenció dos óxidos de los que uno de ellos era Titanio aunque no pudo identificarlo. Posteriormente, en el año 1795 el químico Martin Heinrich Klaproth estaba trabajando con un mineral de rutilo y se topó con este mineral."],
+	"fotoEF": "rutaFotosEF/fichero.jpg",
+	"fotoDescubridor": "rutaFotosDescubridores/22.jpg"
+}

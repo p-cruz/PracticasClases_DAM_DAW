@@ -1,0 +1,26 @@
+ {
+            "simbolo": "I",
+            "nombre": "Yodo",
+            "numeroAtomico": 53,
+            "numeroMasico": 126.90447,
+	"grupo": 17,
+	"periodo": 5,
+            "propiedadesFisicas": [
+	"Radio atómico: 198 pm",
+                                "punto de fusión: 113,7 ºC",
+                                "punto de ebullición: 183 ºC",
+					"En condiciones normales, el yodo es un sólido negro, lustroso, y volátil.",
+					"Recibe su nombre por su vapor de color violeta."
+                                ],
+		"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>5</sup>",
+	"Iones más probables: Yoduro, yodato y diversos aniones periodato.",
+	"Carácter metálico: Aún siendo un no metal, el yodo tiene capacidad de asumir los estados de oxidación de +3 y +5 conformando especies relativamente estables.",
+                                "Elemento no metálico.",
+                                "El más pesado de los halógenos (halogenuros) que se encuentran en la naturaleza."
+                                ],
+            "aplicaciones": "El yodo se usa en la industria química para fabricar tinturas y colorantes, sustancias químicas usadas en fotografía, y en la fabricación de baterías, combustibles y lubricantes.",
+            "descubrimiento":"El yodo fue descubierto en 1811 por el químico francés y el fabricante de salitre Bernard Courtois en las cenizas de algas marinas. Fue nombrado por Gay Lussac en una publicación del 1 de agosto de 1814, a partir del iodes del griego clásico (con reflejos violetas) debido al color de su vapor cuando se calienta.",
+ 		"fotoEF": "rutaFotosEF/fichero.jpg",
+            "fotoDescubridor": "rutaFotosDescubridores/53.jpg"
+}

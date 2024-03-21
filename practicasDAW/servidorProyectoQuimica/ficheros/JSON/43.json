@@ -1,0 +1,39 @@
+{
+    "simbolo": "Tc",
+    "nombre": "Tecnecio",
+    "numeroAtomico": 43,
+    "numeroMasico": 98,
+	"grupo": 7,
+	"periodo": 5,
+    "propiedadesFisicas": [
+			"Radio atómico: 205 pm",
+			"El Tecnecio es un metal de transición de un característico color grisáceo y plateado que se empaña fácilmente en contacto con aire húmedo y que también se disuelve con facilidad en líquidos como ácido nítrico, agua regia y ácido sulfúrico concentrado.",
+"La forma metálica es ligeramente paramagnética, es decir, sus dipolos magnéticos se alinean con los campos magnéticos externos, a pesar de que el Tecnecio normalmente no es magnético. La estructura cristalina del metal presenta un empaquetamiento hexagonal compacto. ",
+"Es muy resistente a la corrosión y es un metal radioactivo no muy pesado y no es inflamable.",
+                        "Su punto de fusión es de 2157 °C y su punto de ebullición es de 4265°C",
+                        "Su densidad es de 11500 kg/m3"
+                          ],
+    "propiedadesQuimicas": [
+			"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 4s<sup>2</sup> 3d<sup>10</sup> 4p<sup>6</sup> 5s<sup>2</sup> 4d<sup>5</sup>",
+			"Ión más probables: Catión de carga +2",
+			"Carácter metálico: Metal de transición típico, de carácter paramagnético.",
+			"Electronegatividad: 1,9",
+			"Primer potencial de ionización: 7,29 eV",
+                        "Muy resistente a la corrosión",
+                        "Metal radioactivo pesado",
+                        "No inflamable" ,
+                        "Se disuelve en agua regia, ácido nítrico y en ácido sulfúrico concentrado, pero no en ácido clorhídrico",
+                        "Isótopos: Tecnecio-96, tecnecio-96m, tecnecio-97, tecnecio-97m, tecnecio-98, tecnecio-99, tecnecio-99m, tecnecio-101."
+                          ],
+    "aplicaciones": [
+"Se utiliza principalmente en procedimientos de diagnostico de funcionamiento de órganos del cuerpo humano, por ejemplo, como marcador radioactivo que el equipamiento medico puede detectar en el cuerpo humano. ",
+"Uno de sus isótopos (Tecnecio 99m) es el radioisótopo mas utilizado en la medicina nuclear con fines de diagnostico. Se usa fundamentalmente para detectar cánceres, afecciones cardiovasculares y otras enfermedades crónicas. ",
+"El Tecnecio 99 puede adherirse o pegarse a varias moléculas concretas, facilitando así el diagnostico de las enfermedad dichas anteriormente. ",
+"También sirve para que los médicos puedan ver el flujo de sangre de los órganos y identificar bloqueos o estrechamientos en los vasos sanguíneos, evaluar la función de los órganos, detectar tumores… ",
+"Su tiempo de vida en el cuerpo es unas 66 horas ",
+"El Tecnecio 99m tiene tres ventajas:  - La rápida eliminación por el organismo - Su especificad en un tipo de radiación - Su fácil alianza con compuestos que se dirigen explícitamente a órganos determinados"
+		],
+    "descubrimiento":"El tecnecio fue el primer elemento sintético que se descubrió en la historia, gracias al trabajo de los físicos italianos Carlo Perrier y Emilio Segrè en 1937. Ellos recibieron una muestra de molibdeno que había sido irradiada con deuterio en el ciclotrón de Ernest Lawrence, y lograron aislar tres isótopos radiactivos del elemento 43, que no se encontraba en la naturaleza. El nombre de tecnecio proviene del griego τεχνητός, que significa \"artificial\".",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/43.jpg"
+}

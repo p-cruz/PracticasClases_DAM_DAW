@@ -1,0 +1,38 @@
+{
+    "simbolo": "Bi",
+    "nombre": "Bismuto",
+    "numeroAtomico": 83,
+    "numeroMasico": 208.9804,
+	"grupo": 15,
+	"periodo": 6,
+    "propiedadesFisicas": [
+			"Su radio atómico es de 143 pm según el radio de Bohr",
+                        "Punto de ebullición, 1560 ºC",
+                        "Punto de fusion 271.3 ºC ",
+			"Densidad: 9,8 mg/L",
+"El bismuto es un metal cristalino, blanco grisáceo, lustroso, duro y quebradizo. Es uno de los pocos metales que se expanden al solidificarse. Su conductividad térmica es menor que la de cualquier otro metal, con excepción del mercurio. El bismuto es inerte al aire seco a temperatura ambiente, pero se oxida ligeramente cuando está húmedo.",
+"Al igual que sucede con el agua, el bismuto aumenta de volumen cuando se encuentra en estado sólido, por lo que disminuye su densidad y flota sobre el bismuto fundido en estado líquido.",
+"Elemento químico metálico, perteneciente al grupo de metales del grupo p",
+"Es un semiconductor, ofreciendo resistencia eléctrica mayor al cobre o la plata."
+                       ],
+"propiedadesQuimicas": [
+	"La configuración electrónica de este elemento es [Xe] 6s<sup>2</sup> 4f<sup>14</sup> 5d<sup>10</sup> 6p<sup>3</sup>",
+	"Su ion más probable de formar según la regla del Octeto son aniones de carga 3-.",
+	"Sobre su carácter metálico, sabemos que es un material metálico.",
+	"Sobre su reactividad química sabemos que forma una capa de óxido al sufrir oxidaciones a extremas temperaturas, reacciona ante el Azufre, Telurio, Selenio, Halógenos y resiste los ataques de ácidos.",
+"Forma rápidamente una película de óxido a temperaturas superiores a su punto de fusión, y se inflama al llegar al rojo formando el óxido amarillo.",
+	"Sus estados de oxidación son entre otros -3, -2, -1, +1, +2, +3, +4, +5",
+	"Su electronegatividad es de 2,02 según la escala de Pauling",
+	"El bismuto será el último elemento en desintegrarse en el universo. La vida media del elemento se estima en 20 trillones de años",
+	"El bismuto tiene hasta 41 isótopos, la mayoría no estables. Los más estables son el 208Bi y el 209Bi."	
+			],
+    "aplicaciones": [
+"El principal uso del bismuto está en la manufactura de aleaciones de bajo punto de fusión, que se emplean en partes fundibles de rociadoras automáticas, soldaduras especiales, sellos de seguridad para cilindros de gas comprimido y en apagadores automáticos de calentadores de agua eléctricos y de gas.",
+"También se utiliza como recubrimiento de escudos de látex, usados para proteger de los rayos X durante pruebas de análisis médico.",
+"También se utiliza en los vehículos que emplean sistemas de termopar para transportar combustibles de reactores nucleares.",
+"En el sector industrial se usa con el fin de producir pigmentos para productos cosméticos como sombras de ojos, esmaltes de uñas y spray de cabello."
+		],
+    "descubrimiento":"Se le atribuye al alemán Georgius Agricola el mérito de haber afirmado, a mediados del siglo XVI, que el bismuto era un metal diferente a los mencionados. Georgius Agricola, afirma que el bismuto es un metal distinto en una familia de metales que incluía al estaño y al plomo, basándose en la observación de sus propiedades físicas. Ya en 1753, el francés Claude François Geoffroy logró demostrar esa distinción, con lo cual es señalado como el descubridor del bismuto. El bismuto, de hecho, fue uno de los primeros diez metales en ser descubiertos. Por otro lado, era famosa entre los incas su aleación con Bronce para fabricar cuchillos. ",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/83.jpg"
+}

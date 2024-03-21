@@ -1,0 +1,27 @@
+{
+    "simbolo": "Dy",
+     "nombre": "DISPROSIO",
+     "numeroAtomico": 66,
+     "numeroMasico": 162.5,
+	"grupo": "Tierra rara (Lantánido)",
+	"periodo": 6,
+     "propiedadesFisicas": [
+		"Radio atómico: 235 pm",
+               "Es un metal de transición de color blanco plata.",
+               "Punto de ebullición: 1407ºC.",
+               "Punto de fusión: 2567ºC.",
+               "densidad: 8,55 g/ml.",
+           "tiempo de vida media: el isótopo más estable es el 154 Dy con una vida media 3 millones de años, el 159 Dy con una vida nueva 144,4 días y el 166 Dy con una vida media de 81,6horas."
+               ],
+   "propiedadesQuimicas": [
+		"Configuración electrónica: [Xe] 4f<sup>10</sup> 6s<sup>2</sup> 6p<sup>6</sup> 4f<sup>10</sup> 5d<sup>9</sup> 6p<sup>6</sup>",
+		"Iones más probables:El disprosio generalmente forma iones con una carga de +3, perdiendo tres electrones para alcanzar la configuración electrónica más estable.",
+	"Carácter metálico:El disprosio es un elemento de tierras raras y, por lo tanto, tiene un carácter metálico.",
+               "El disprosio forma un óxido blanco.",
+               "Dy2O3 que se disuelve en ácido para producir una solución amarillo-verdosa."
+               ],
+   "aplicaciones": "No existen aplicaciones comerciales del disprosio ya que absorbe neutrones fácilmente y tiene un elevado punto de fusión, el disprosio puede ser aleado con acero para ser usado en reactores nucleares. Cuando se combina con vanadio y otros elementos de tierras raras, el disprosio se usa como un material láser.",
+     "descubrimiento": "Fue identificado por primera vez en 1886 por Paul Émile Lecoq de Boisbaudran, pero no fue posible obtener una muestra pura hasta la década de 1950, con el método de intercambio iónico.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+     "fotoDescubridor": "rutaFotosDescubridores/66.jpg"
+}

@@ -1,0 +1,24 @@
+{
+    "simbolo": "Ho",
+    "nombre": "Holmio",
+    "numeroAtomico": 67,
+    "numeroMasico": 164.930,
+	"grupo": "Tierras raras (Lantánido)",
+	"periodo": 6,
+    "propiedadesFisicas": [
+		"Radio atómico: 233 pm",
+                "Es un metal relativamente blando, plateado, bastante resistente a la corrosión y maleable.",
+                        "punto de fusión: 1461 ºC",
+                        "punto de ebullición: 2600 ºC",
+	"El metal es paramagnético, pero a medida que la temperatura disminuye se convierte en antiferromagnético y luego al sistema ferromagnético"
+                        ],
+"propiedadesQuimicas": [
+"Configuración electrónica: [Xe] 4f<sup>11</sup> 6s<sup>2</sup>",
+"Ión más probable: Al ser un metal perteneciente a las tierras raras, presentará múltiples, aunque destaca el catión +2",
+"Carácter metálico: Metal típico",
+"Los iones de holmio trivalentes tienen propiedades fluorescentes similares a las de muchos otro iones de tierras raras (al tiempo que producen su propio conjunto de líneas luminosas de emisión únicas)"],
+    "aplicaciones": "El holmio tiene pocas aplicaciones prácticas, aunque se ha usado como catalizador en reacciones químicas industriales y también para la fabricación de algunos dispositivos electrónicos. En medicina se utiliza el láser de holmio. El holmio no tiene aplicaciones comerciales, aunque tiene propiedades magnéticas inusuales que podrían ser aprovechadas en el futuro",
+    "descubrimiento":"Fue descubierto por Jacques-Louis Soret y Marc Delafontaine en 1878, quienes observaron las inusuales bandas de absorción espectro gráficas del entonces desconocido elemento (lo llamaron \"Elemento X\"). Poco más tarde, en ese mismo año, Per Teodor Cleve descubrió también el elemento en forma independiente mientras trabajaba con óxido de erbio. Cleve eliminó todos los contaminantes entonces conocidos del óxido de erbio usando el método desarrollado por Carl Gustaf Mosander. Como resultado de este proceso se obtuvieron dos materiales, uno de color marrón y otro verde. Cleve nombró a la sustancia de color marrón holmia y a la verde thulia. Después se descubrió que holmia era en realidad óxido de holmio y thulia era óxido de tulio.",
+     "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/67.jpg"
+}

@@ -1,0 +1,32 @@
+{
+    "simbolo":"Ne",
+    "nombre": "NEÓN",
+    "numeroAtomico": 10,
+   "numeroMasico": 20,
+	"grupo": 18,
+	"periodo": 2,
+"propiedadesFisicas": [
+	"Radio atómico: 38 pm",
+            "Se trata de un elemento químico en estado gaseoso y con el número atómico 10, el gas más ligero después del Helio. ",
+           "Es inodoro, insípido, incoloro y miembro de la serie química de los gases nobles. Además, mantiene el nivel térmico de un cuerpo mejor que el Hidrógeno y suministra el tono rojo anaranjado en tubos fluorescentes.",
+           "Su punto de fusión es de -248.6ºC",
+           "Su punto de ebullición es de -246ºC",
+           "Su densidad es de 1,20g/ml"
+],
+"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup>",
+	"Ión más probable: Al ser un gas noble que cumple la regla del octeto no tiene tendencia a formar ningún tipo de ión",
+	"Carácter metálico: Nulo, al ser un gas noble",
+            "Es un elemento no soluble.", 
+           "Su reactividad es nula, pues no gana ni pierde electrones."
+],
+"aplicaciones": [
+            "Indicadores de alto voltaje",
+            "Junto con el helio se emplea para obtener un tipo de láser",
+           "El neón licuado se comercializa como refrigerante criogénico",
+           "El neón líquido se utiliza en lugar del nitrógeno líquido para refrigeración"
+],
+"descubrimiento":" El Neón fue descubierto por dos científicos británicos Sir William Ramsay y Morris W en 1898. ",
+"fotoEF": "rutaFotosEF/fichero.jpg",
+"fotoDescubridor": "rutaFotosDescubridores/10.jpg"
+}

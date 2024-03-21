@@ -1,0 +1,24 @@
+{
+    "simbolo": "Gd",
+     "nombre": "Gadolinio",
+     "numeroAtomico": 64,
+     "numeroMasico": 157.25,
+	"grupo": "Tierra rara (Lantánidos)",
+	"periodo": 6,
+     "propiedadesFisicas": [
+	"Radio atómico: 102 pm",
+               "El gadolinio es el 64 elemento de la tabla periódica.",
+               "En condiciones normales se encuentra en estado solido.",
+               "La vida media del gadolinio es de 6 minutos"
+               ],
+   "propiedadesQuimicas": [
+	"Configuración electrónica: [Xe] 6s<sup>2</sup> 4f<sup>7</sup> 5d<sup>1</sup>",
+	"Ión más probable: Catión carga +3",
+              "el gadolinio tiene un peso melecular de 157,25u.",
+               "la densidad del gadolinio es de 7,89 g/ml" 
+               ],
+   "aplicaciones": "se utiliza como componente de las varillas de control en centrales nucleares ya que retiene muy bien los neutrones, sirven para la fabricación de tubos de colores para televisores y microondas.",
+     "descubrimiento": "El científico químico Jean Charles Galissard de Marignac fue quien descubrió el Gadolinio por primera vez en 1880, dentro de los minerales de Didimio y Gadolinita en Ginebra. Por medios espectroscópicos lo observó como un óxido blanquecino del mineral Samarskit, para ese entonces lo llamó Y de Samarskit. Sin embargo, el químico francés Paul Émile Lecoq de Bisbaudran hizo la separación entre el metal y el mineral Gadolinia en 1886. Y fue este quien le dio el nombre de Gadolinio. A partir desde entonces se comenzó a extraer este metal de peso medio, principalmente en la mina de Ytterby en Estocolmo, aunque en la actualidad en esa zona este recurso natural ya se encuentra agotado.Hoy día, este metaloide se obtiene a través de la disminución de fluoruro de Calcio con Gadolinio anhidro. Se extrae de los minerales",
+    "fotoEF":"rutaFotosEF/fichero.jpg",
+    "fotoDescubridor":"rutaFotosDescubridores/64.jpg"
+}

@@ -1,0 +1,25 @@
+{
+    "simbolo": "Br",
+    "nombre": "Bromo",
+    "numeroAtomico": 35,
+    "numeroMasico": 79.904,
+	"grupo": 17,
+	"periodo": 4,
+    "propiedadesFisicas": [
+"Radio atómico: 185 pm",
+"Líquido de olor intenso e irritante, rojo oscuro y de bajo punto de ebullición, pero de alta densidad."
+		],
+    "propiedadesQuimicas": [
+"Configuración electrónica: [Ar] 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>5</sup>",
+"Ión más probable: Anión de carga -1",
+"Carácter metálico: Es un no metal típico",   
+"Es el único elemento no metálico líquido a temperatura y presión normales. Es muy reactivo químicamente."
+	],
+    "aplicaciones": [
+                      "El bromo se utiliza en la preparación de ciertas tinturas y de dibromoetano ( bromuro de etileno), un componente antidetonante para la gasolina.",
+                      "Los bromuros se usan en fotografía (AgBr) como emulsión, en medicina (KBr) como sedante y en la producción de petróleo y gas natural.."
+                    ],
+    "descubrimiento": "El bromo (del griego bromos, que significa hedor o pestilencia) fue descubierto en 1826 por Antoine-Jérôme Balard e independientemente por Carl Jacob Löwig en 1825 y 1826, respectivamente. lo descubrio cuando estaba trabajando con sales precipitadas del agua de los pantanos de Montpellier, descubrió que, al añadir ciertos productos químicos, aparecía una sustancia de color pardo, irritante y de olor desagradablese ,comprobó que era un nuevo elemento químico: el bromo.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/35.jpg"
+}

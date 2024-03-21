@@ -1,0 +1,26 @@
+{
+    "simbolo": "Tm",
+      "nombre": "TULIO",
+      "numeroAtomico": 69,
+      "numeroMasico": 168,
+	"grupo": "Tierra rara (Lantánido)",
+	"periodo": 6,
+      "propiedadesFisicas": [
+	"Radio atómico: 230 pm",
+              "El radio medio del tulio es de 175 pm.",
+              "El radio atómico o radio de Bohr es de 222 pm.",
+              "El tulio tiene un total de 69 electrones cuya distribución es la siguiente: En la primera capa tiene 2 electrones, en la segunda tiene 8 electrones, en su tercera capa tiene 18 electrones, en la cuarta, 31 electrones.",
+              "Es bastante blando y se empaña lentamente en el aire."
+                          ],
+  "propiedadesQuimicas": [
+	"Configuración electrónica: [Xe] 4f<sup>13</sup> 6s<sup>2</sup>",
+	"Ión más probable: Catión de carga +2",
+	"Carácter metálico: Metal de comportamiento atípico al pertenecer a las tierras raras", 
+              "El tulio es el segundo elemento menos abundante de los lantánidos, después del radiactivamente inestable prometio, que sólo se encuentra en trazas en la Tierra.",
+              "No tiene ninguna función biológica importante y no es especialmente tóxico."
+              ],
+      "aplicaciones": "Es un metal fácil de trabajar con un lustre gris plateado brillante. A pesar de su elevado precio y rareza, el tulio se usa como fuente de radiación de dispositivos portátiles de rayos X y en reacciones nucleares. A pesar de ser un poco caro, los superconductores de alta temperatura usan tulio. Se utiliza para fabricar ferritas, materiales magnéticos cerámicos para artículos de microondas.",
+      "descubrimiento": "En 1879, el químico sueco Per Teodor Cleve separó del óxido de tierras raras otros dos componentes hasta entonces desconocidos, a los que llamó holmia y thulia; se trataba de los óxidos de holmio y de tulio, respectivamente. En 1911 se obtuvo por primera vez una muestra relativamente pura de tulio metálico. Su nombre procede del antiguo nombre griego de Escandinavia en latín, Thulium.",
+      "fotoEF": "rutaFotosEF/fichero.jpg",
+      "fotoDescubridor": "rutaFotosDescubridores/69.jpg"
+}

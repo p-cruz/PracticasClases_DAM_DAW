@@ -1,0 +1,31 @@
+{
+    "simbolo": "Rf",
+       "nombre": "RUTHERFORDIO",
+       "numeroAtomico": 104,
+       "numeroMasico": 267,
+	"grupo": 4,
+	"periodo": 7,
+       "propiedadesFisicas": [
+	"Radio atómico: 200 pm",
+               "Es un elemento sintético de la tabla periódica que no se encuentra en la naturaleza de manera natural. Solo se puede crear en los laboratorios a través del bombardeo nuclear de los núcleos de Carbono 12 y elemento californium 249 ",
+               "En condiciones normales probablemente se encuentre en estado sólido.",
+               "Su punto de fusión es 2100 ºC y su punto de ebullición 5500 ºC.",
+           
+               "Es un metal insípido, incoloro e inodoro."
+               ],
+   "propiedadesQuimicas": [
+	"Configuración electrónica: [Rn] 5f<sup>14</sup> 6d<sup>2</sup> 7s<sup>2</sup>",
+	"Iones más probables:(+2), (+3), (+4) ",
+	"Carácter metálico: Metal",
+               "Por su reactividad es nocivo para la salud."
+               ],
+   "aplicaciones": [
+               "Hoy en día, este elemento sintético no tiene ninguna aplicación, por lo que su uso se limita a la investigación científica en laboratorios. Además, se conoce muy poco sobre él pues no es posible hallarlo en la naturaleza y además sus isótopos sintéticos poseen vidas medias demasiado cortas."
+],
+       "descubrimiento": [
+               "En el año 1969 en la Universidad de California, Berkeley, los investigadores Nurmia, kay Eskola, Albert Ghiorso y Pl Eskola anunciaron la creación de dos isótopos del elemento 104, que eran diferentes al encontrado en Dubna. Sintetizaron el elemento al añadir carbono 12 y californium 249 en algunas colisiones de alta energía."
+],
+
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+       "fotoDescubridor": "rutaFotosDescubridores/104.jpg"
+   }

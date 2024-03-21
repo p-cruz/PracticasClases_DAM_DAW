@@ -1,0 +1,22 @@
+{
+    "simbolo": "Db",
+    "nombre": "Dubnio",
+    "numeroAtomico": 105,
+    "numeroMasico": 268,
+	"grupo": 5,
+	"periodo": 7,
+    "propiedadesFisicas": [
+		"Radio atómico: 200 pm",
+                      "Vida media 1.6 segundos, decae emitiendo partículas alfa con energías de 9.06 (55%), 9.10 (25%) y 9.14 (20%) MeV."                             
+                        ],
+"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup> 4f<sup>14</sup> 5<sup>d10</sup> 6s<sup>2</sup> 6p<sup>6</sup> 5f14 6d3 7s2", "Ion más probable: su ion más probable es Db+2 ya que es más fácil que pierda dos electrones a que gane seis, según la regla del octeto.",
+	"Carácter metálico: Posee un carácter metálico muy marcado.",
+                      "Metal muy pesado.",
+            "Metal radiactivo."                               
+                        ],
+"aplicaciones": "Se fabrica en pequeñas cantidades y carece de una utilidad específica, por el momento solo es utilizado para investigaciones.",
+"descubrimiento": "Fue descubierto por el ruso Georgii Flerov el 27 de abril de 1967 y fue sintetizado el año 1970.",
+"fotoEF": "rutaFotosEF/fichero.jpg",
+"fotoDescubridor": "rutaFotosDescubridores/105.jpg"
+}

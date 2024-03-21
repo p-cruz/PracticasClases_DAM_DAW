@@ -1,0 +1,23 @@
+{
+    "simbolo": "At",
+    "nombre": "Astato",
+    "numeroAtomico": 85,
+    "numeroMasico": 209.987,
+	"grupo": 17,
+	"periodo": 6,
+    "propiedadesFisicas": [
+		"Radio atómico: 200 pm",
+            "El ástato es un elemento muy inestable, que existe sólo en formas radiactivas de vida corta.",
+            "Se han preparado unos 25 isótopos mediante reacciones nucleares de transmutación artificial."
+                       ],
+"propiedadesQuimicas": [
+	"Configuración electrónica: 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>4s<sup>2</sup>3d<sup>10</sup>4p<sup>6</sup>5s<sup>2</sup>4d<sup>10</sup>5p<sup>6</sup>6s<sup>2</sup>4f<sup>14</sup>5d<sup>10</sup>6p<sup>5</sup>",
+	"Ion más probable: El ión más probable de este elemento es -1, alcanzando así la configuración de gas noble.",
+	"Carácter metálico: A pesar de ser un no metal de forma clara, el astato manifiesta cierto comportamiento metálico, como su capacidad de formar cationes monoatómicos estables en soluciones acuosas; a diferencia de los halógenos más ligeros (flúor, bromo y yodo).",	
+	"El ástato es el elemento más pesado del grupo de los halógenos, ocupa el lugar debajo del yodo en el grupo VII de la tabla periódica."
+		],
+    "aplicaciones": "El astato es de particular interés debido a que sus isótopos son candidatos interesantes para la creación de radiofármacos para el tratamiento del cáncer mediante la terapia con partículas alfa (núcleos de helio).",
+    "descubrimiento":"El ástato (del griego αστατος, astatos, que significa inestable) fue sintetizado por primera vez en 1940 por Dale R. Corson, K. R. MacKenzie y Emilio Segrè en la Universidad de Berkeley (California), bombardeando bismuto con partículas alfa. Un primer nombre para el elemento fue alabamio (Ab).",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/85.jpg"
+}

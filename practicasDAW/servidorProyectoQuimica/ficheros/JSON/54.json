@@ -1,0 +1,29 @@
+{
+    "simbolo":"Xe",
+    "nombre": "Xenón",
+    "numeroAtomico": 54,
+    "numeroMasico": 131.293,
+	"grupo": 18,
+	"periodo": 5, 
+    "propiedadesFisicas": [
+		"Radio atómico: 108 pm",
+                        "El xenón es un miembro de los elementos llamados gases nobles.", 
+              "En un tubo lleno de gas xenón, se emite un brillo azul cuando se le excita con una descarga eléctrica.",
+              "Se ha conseguido xenón metálico aplicándole presiones de varios cientos de kilobares.",
+              "El xenón también puede formar clatratos con agua cuando sus átomos quedan atrapados en un entramado de moléculas de oxígeno.",
+              "Su punto de fusión es -111,8 °C  y su punto de ebullición es -108,1 °C, su densidad es 3.100 g/mL, su tiempo de vida media es 5 años."
+                ],
+"propiedadesQuimicas": [
+		"Configuración electrónica: 1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>6</sup> 3s<sup>2</sup> 3p<sup>6</sup> 3d<sup>10</sup> 4s<sup>2</sup> 4p<sup>6</sup> 4d<sup>10</sup> 5s<sup>2</sup> 5p<sup>6</sup>",
+		"Ion más probable: al cumplir la regla del octeto en su configuración electrónica seguiría con carga neutra.",
+		"Carácter metálico: Nulo, al no generar ningún tipo de ion.",
+               "En la naturaleza, el xenón se encuentra en siete isótopos estables y dos ligeramente radioactivos.",
+               "Además de estas formas estables, se han estudiado 20 isótopos inestables más.",
+               "El Xe-129 se produce por emisión beta del I-129;",
+               "los isótopos Xe-131, Xe-132, Xe-134 y Xe-136 son productos de fisión tanto del U-238 como del Pu-244."
+                        ],
+    "aplicaciones": "El uso principal y más famoso de este gas es en la fabricación de dispositivos emisores de luz, tales como lámparas bacterizadas, tubos electrónicos, lámparas estroboscópicas y flashes fotográficos, así como en lámparas usadas para excitar láseres de rubí, que generan de esta forma luz coherente.",
+    "descubrimiento":"El xenón lo descubrió William Ramsay y Morris Travers en el año 1898 en residuos de la evaporación del aire líquido. Su abundancia en la atmósfera es mínima y actualmente se obtiene de manera comercial mediante la extracción de los residuos de aire licuado.",
+ "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/54.jpg"
+}

@@ -1,0 +1,26 @@
+{
+    "simbolo": "Ta",
+    "nombre": "Tántalo",
+    "numeroAtomico": 73,
+    "numeroMasico": 180.95,
+	"grupo": 5,
+	"periodo": 6,
+    "propiedadesFisicas": [
+	"Radio atómico: 220 pm",
+                        "Densidad 16,61", 
+                        "Punto de  ebullicion 5425 C"
+                        ],
+"propiedadesQuimicas": [
+		"Configuración electrónica: [Xe] 4f<sup>14</sup> 5d<sup>3</sup> 6s<sup>2</sup>.",
+		"Iones más probables: El tántalo suele formar iones con una carga de +5, perdiendo cinco electrones para alcanzar la configuración electrónica más estable.",
+	"Carácter metálico: El tántalo es un metal de transición y exhibe propiedades metálicas.",
+		"Inerte al ataque de acidos"
+		],
+    "aplicaciones": [
+                        "El metal tántalo se emplea en la fabricación de capacitores para equipos electrónicos",
+                        "Construcción de hornos"
+                    ],
+    "descubrimiento":"Fue descubierto en 1802 por el químico sueco Anders Gustaf Ekeberg.",
+    "fotoEF": "rutaFotosEF/fichero.jpg",
+    "fotoDescubridor": "rutaFotosDescubridores/73.jpg"
+}
