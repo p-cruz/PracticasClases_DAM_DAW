@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded",()=>{
             grupo, periodo, propiedadesFisicas, propiedadesQuimicas,
             aplicaciones, descubrimiento, fotoDescubridor} = await peticion.json();
 
-            let peticion_img = await fetch(`${fotoDescubridor}`);
+            let peticion_img = await fetch(`http://localhost:3000/${fotoDescubridor}`);
             if(peticion_img.status != 200) throw "img_found";
         
             let respuesta_img = await peticion_img.blob();
