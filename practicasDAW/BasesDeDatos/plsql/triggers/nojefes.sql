@@ -1,4 +1,4 @@
-create or replace trigger tNoJefes 
+create or replace trigger NuncaSinJefe 
 before delete or update of dir
 on emple
 for each row
